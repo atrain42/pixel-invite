@@ -1,11 +1,13 @@
 import img from "../images/trial1.svg";
 
+import classes from "./About.module.css";
+
 const About = function () {
   return (
-    <section className="aboutSection">
+    <section className={classes.aboutSection}>
       <h1 className="infoTitle">Who are we?</h1>
-      <div className="aboutContainer">
-        <div className="aboutText">
+      <div className={classes.aboutContainer}>
+        <div className={classes.aboutText}>
           <h1>About us</h1>
           <p>
             Our goal is to make sending invites to your baby shower, easy.
@@ -20,8 +22,8 @@ const About = function () {
         </div>
         <img src={img} alt="about" />
       </div>
-      <div className="aboutContent">
-        <div className="aboutText">
+      <div className={classes.aboutContent}>
+        <div className={classes.aboutText}>
           <h1>How it works</h1>
           <p>
             Browse the templates and get an idea of who we are and what we do.
@@ -29,7 +31,7 @@ const About = function () {
             will get back with you within 24 hours.
           </p>
         </div>
-        <div className="aboutText">
+        <div className={classes.aboutText}>
           <h1>Mission</h1>
           <p>
             Our mission is to discard the old way of sending invites through the

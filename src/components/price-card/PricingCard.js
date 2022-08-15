@@ -1,6 +1,5 @@
 import classes from "./PricingCard.module.css";
 import { AiFillCheckCircle } from "react-icons/ai";
-import Button from "../button/Button";
 
 const PricingCard = () => {
   return (
@@ -28,9 +27,6 @@ const PricingCard = () => {
       <div className={classes.checkbox}>
         <AiFillCheckCircle className={classes.check} />
         <h5>Links to registry</h5>
-      </div>
-      <div className={classes.pricingBtn}>
-        <Button title="contact" />
       </div>
     </div>
   );

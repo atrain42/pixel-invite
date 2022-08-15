@@ -7,18 +7,34 @@ import classes from "../nav/Navbar.module.css";
 const Dropdown = () => {
   const [text, setText] = useState("");
 
+  const closeDropdown = () => {
+    setText("");
+  };
+
   const showLinks = () => {
     if (!text) {
       setText(() => {
         return (
           <div className={classes.dropdownOptions}>
-            <Link to="about" className={classes.dropdownLink}>
+            <Link
+              to="about"
+              onClick={closeDropdown}
+              className={classes.dropdownLink}
+            >
               About
             </Link>
-            <Link to="privacy" className={classes.dropdownLink}>
+            <Link
+              to="privacy"
+              onClick={closeDropdown}
+              className={classes.dropdownLink}
+            >
               Privacy
             </Link>
-            <Link to="/" className={classes.dropdownLink}>
+            <Link
+              to="/"
+              onClick={closeDropdown}
+              className={classes.dropdownLink}
+            >
               Expectations
             </Link>
           </div>

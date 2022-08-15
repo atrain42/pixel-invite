@@ -1,0 +1,20 @@
+/* --------Footer-------- */
+.footer {
+  width: 100vw;
+  background-color: #f5f5f5;
+  padding: 10rem 10rem;
+}
+
+.footer h1 {
+  font-family: "Playfair Display", serif;
+  color: var(--text-black);
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+
+.footer p {
+  font-size: 15px;
+  font-family: "Ubuntu", sans-serif;
+  width: 300px;
+  line-height: 1.4;
+}
