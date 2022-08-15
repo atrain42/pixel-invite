@@ -1,0 +1,51 @@
+.contact {
+  background-color: rgba(188, 228, 254, 0.374);
+  padding-top: 5rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  padding: 10rem 0;
+}
+
+form label {
+  font-size: 30px;
+  margin-bottom: 2rem;
+}
+
+form input {
+  height: 4rem;
+  width: 350px;
+  margin-bottom: 3rem;
+  border: 1px solid rgb(185, 185, 185);
+  border-radius: 5px;
+  box-shadow: 0 0 5px 1px rgba(185, 185, 185, 0.496);
+}
+
+::placeholder {
+  font-size: 17px;
+  text-indent: 10px;
+}
+
+select {
+  width: 100px;
+  height: 3rem;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5rem;
+}
+
+textarea {
+  margin-left: 5rem;
+}
+
+.title {
+  color: var(--text-black);
+  font-size: 55px;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}

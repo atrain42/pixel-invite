@@ -1,0 +1,48 @@
+.gender {
+  padding: 10rem 0;
+  position: relative;
+}
+
+.genderOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-color: rgba(170, 218, 247, 0.468);
+  height: 100vh;
+  width: 100vw;
+  clip-path: circle(200px at 15% 40%);
+}
+
+.genderContent {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  padding: 10rem 0;
+}
+
+.genderContent img {
+  height: 50rem;
+  width: auto;
+}
+
+.genderText {
+  width: 500px;
+  z-index: 2;
+}
+
+.genderText h1 {
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.3;
+  margin-bottom: 3rem;
+}
+.genderText h2 {
+  font-family: "Ubuntu", sans-serif;
+  margin-bottom: 1rem;
+}
+
+.genderText p {
+  font-family: "Inter", sans-serif;
+  color: var(--text-black);
+  font-size: 17px;
+}
