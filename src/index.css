@@ -209,18 +209,11 @@ main {
   align-items: center;
 }
 
-.call-to-action h1 {
-  font-family: "Playfair Display", serif;
-  color: var(--text-black);
-  font-size: 55px;
-  font-weight: 400;
-  margin-bottom: 2rem;
-}
-
 .call-to-action p {
   font-family: "Inter", sans-serif;
   font-size: 15px;
   margin-bottom: 4.5rem;
+  margin-top: 2rem;
 }
 
 .payment-icon {
@@ -237,8 +230,12 @@ main {
   .infoTitle {
     font-size: 44px;
   }
+}
 
-  .call-to-action h1 {
-    font-size: 44px;
+@media (max-width: 475px) {
+  .infoTitle {
+    font-size: 37px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
   }
 }
