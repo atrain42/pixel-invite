@@ -100,6 +100,10 @@
     justify-content: flex-start;
   }
 
+  .contactBin {
+    padding-top: 15rem;
+  }
+
   .contactSection span {
     flex-direction: column;
   }

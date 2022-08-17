@@ -30,8 +30,8 @@ const Footer = () => {
           <Link to="/privacy" className={classes.footLink}>
             Privacy
           </Link>
-          <Link to="/" className={classes.footLink}>
-            Expectations
+          <Link to="/steps" className={classes.footLink}>
+            Getting started
           </Link>
         </div>
         <div className={classes.footerLinks}>
