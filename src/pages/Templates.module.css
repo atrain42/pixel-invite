@@ -1,3 +1,66 @@
 .templates {
   padding: 15rem 0;
 }
+
+.templateContainer {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 10rem;
+}
+
+.imageContainer {
+  width: 40rem;
+  height: 30rem;
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../images/exampleA.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  transition: all 0.5s;
+}
+
+.imageContainer:nth-child(2) {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),
+    url(../images/exampleB.png);
+}
+
+.imageContainer button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  background-color: #fff;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.imageContainer:hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
+    ),
+    url(../images/exampleA.png);
+  scale: 1.05;
+}
+
+.imageContainer:nth-child(2):hover {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 0)
+    ),
+    url(../images/exampleB.png);
+}

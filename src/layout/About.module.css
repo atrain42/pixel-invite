@@ -40,6 +40,7 @@
 @media (max-width: 1250px) {
   .aboutSection {
     padding: 0 10rem;
+    padding-top: 10rem;
   }
   .aboutContainer img {
     width: 35rem;
@@ -51,6 +52,7 @@
 @media (max-width: 1000px) {
   .aboutSection {
     padding: 0 5rem;
+    padding-top: 10rem;
   }
 
   .aboutContainer img {

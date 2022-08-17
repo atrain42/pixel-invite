@@ -3,6 +3,15 @@
   width: 100vw;
   background-color: #f5f5f5;
   padding: 10rem 10rem;
+  padding-bottom: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.contentBin {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 
 .footer h1 {
@@ -17,4 +26,64 @@
   font-family: "Ubuntu", sans-serif;
   width: 300px;
   line-height: 1.4;
+}
+
+.footerLinks {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerLinks h2 {
+  font-size: 17px;
+  margin-bottom: 2rem;
+}
+
+.footerLinks h4 {
+  font-size: 12px;
+  margin-bottom: 1rem;
+  width: 175px;
+  color: var(--text-black);
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+}
+
+.footLink {
+  text-decoration: none;
+  color: var(--text-black);
+  font-size: 15px;
+  margin-bottom: 1rem;
+}
+
+.footer hr {
+  margin-top: 8rem;
+  margin-bottom: 1rem;
+}
+
+.footer h3 {
+  text-align: right;
+}
+
+@media (max-width: 1150px) {
+  .footer {
+    padding: 10rem 5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+@media (max-width: 900px) {
+  .footer {
+    padding: 10rem 2.5rem;
+    padding-bottom: 5rem;
+  }
+}
+
+@media (max-width: 775px) {
+  .contentBin {
+    flex-direction: column;
+  }
+
+  .footerLinks {
+    margin-bottom: 3rem;
+  }
 }

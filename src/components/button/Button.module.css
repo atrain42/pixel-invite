@@ -9,3 +9,10 @@
   font-weight: 500;
   cursor: pointer;
 }
+
+@media (max-width: 900px) {
+  .solidBtn {
+    font-size: 13px;
+    padding: 5px 8.5px;
+  }
+}

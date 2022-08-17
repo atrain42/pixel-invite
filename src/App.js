@@ -7,22 +7,22 @@ import Templates from "./pages/Templates";
 import Navbar from "./components/nav/Navbar";
 import TemplateOne from "./templates/TemplateOne";
 import TemplateTwo from "./templates/TemplateTwo";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
-    <div>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="privacy" element={<Privacy />} />
-          <Route path="templates" element={<Templates />} />
-          <Route path="template-one" element={<TemplateOne />} />
-          <Route path="template-two" element={<TemplateTwo />} />
-        </Routes>
-      </Router>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/privacy" element={<Privacy />} />
+        <Route path="/templates" element={<Templates />} />
+        <Route path="/template-one" element={<TemplateOne />} />
+        <Route path="/template-two" element={<TemplateTwo />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+    </Router>
   );
 }
 

@@ -80,3 +80,9 @@ main {
     opacity: 1;
   }
 }
+
+@media (max-width: 600px) {
+  .question h4 {
+    font-size: 17px;
+  }
+}

@@ -18,7 +18,8 @@ const Home = function () {
       <Testimonial />
       <Additional />
       <section className="call-to-action">
-        <h1>Let's get to work</h1>
+        <h1>Ready to get started?</h1>
+        <p>Fill out the contact form and we will reply within 24 hours.</p>
         <Button title="Get started" />
       </section>
       <Footer />

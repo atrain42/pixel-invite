@@ -65,5 +65,6 @@ span h6 {
 @media (max-width: 850px) {
   .pricingCard {
     width: 35rem;
+    margin-top: 4rem;
   }
 }

@@ -12,9 +12,6 @@ const Header = () => {
           At PixeledInvite, we create your own personal website that acts as an
           invitation to your baby shower.
         </p>
-        <a href="/#services" className={classes.exploreBtn}>
-          Explore
-        </a>
       </div>
       {/* <img src={Image} alt="" className={classes.headerSvg} /> */}
       <div className={classes.svgContainer}>
