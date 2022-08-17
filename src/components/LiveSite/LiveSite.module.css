@@ -80,3 +80,14 @@
     margin-bottom: 5rem;
   }
 }
+
+@media (max-width: 475px) {
+  .liveContainer {
+    width: 100%;
+  }
+
+  .liveContainerText h4 {
+    font-size: 17px;
+    width: 100%;
+  }
+}

@@ -96,3 +96,9 @@
     width: 100%;
   }
 }
+
+@media (max-width: 475px) {
+  .imageContainer {
+    width: 100%;
+  }
+}
