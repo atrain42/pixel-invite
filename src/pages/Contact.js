@@ -30,7 +30,12 @@ const Contact = () => {
               <option value="PayPal">PayPal</option>
             </select>
           </span>
-          <textarea cols="55" rows="15" placeholder="Message"></textarea>
+          <textarea
+            cols="55"
+            rows="15"
+            placeholder="Message"
+            name="message"
+          ></textarea>
           <button type="submit">Submit</button>
         </form>
       </section>
