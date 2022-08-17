@@ -10,7 +10,7 @@ const Steps = () => {
   return (
     <React.Fragment>
       <div className={classes.aboutText}>
-        <h1>Steps to get your site</h1>
+        <h1>Steps</h1>
         <p>
           1. Fill out the contact form and we will respond within 24 hours.
           <br />
