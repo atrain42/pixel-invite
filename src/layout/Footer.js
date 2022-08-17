@@ -36,7 +36,7 @@ const Footer = () => {
         </div>
         <div className={classes.footerLinks}>
           <h2>Contact</h2>
-          <h4>You can email us at maxheimer4211@gmail.com</h4>
+          <h4>You can email us at pixel.invite.info@gmail.com</h4>
         </div>
       </div>
       <hr />
