@@ -231,6 +231,10 @@ main {
   .infoTitle {
     font-size: 44px;
   }
+
+  .infoSection {
+    padding: 10rem 0;
+  }
 }
 
 @media (max-width: 475px) {

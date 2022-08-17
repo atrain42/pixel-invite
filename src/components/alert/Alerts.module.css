@@ -69,7 +69,7 @@
     width: 100%;
   }
   .alertInfo h1 {
-    font-size: 32px;
+    font-size: 25px;
   }
   .alertContainer {
     flex-direction: column;
