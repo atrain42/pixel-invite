@@ -17,25 +17,25 @@ const Dropdown = () => {
         return (
           <div className={classes.dropdownOptions}>
             <Link
-              to="about"
+              to="/about"
               onClick={closeDropdown}
               className={classes.dropdownLink}
             >
               About
             </Link>
             <Link
-              to="privacy"
+              to="/privacy"
               onClick={closeDropdown}
               className={classes.dropdownLink}
             >
               Privacy
             </Link>
             <Link
-              to="/"
+              to="/steps"
               onClick={closeDropdown}
               className={classes.dropdownLink}
             >
-              Expectations
+              Steps
             </Link>
           </div>
         );

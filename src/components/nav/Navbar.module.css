@@ -26,7 +26,7 @@ nav {
   background-color: transparent;
   border: 1px solid white;
   border-radius: 5px;
-  padding: 10px 17px;
+  padding: 9px 17px;
   color: #fff;
   font-family: "Noto Sans", sans-serif;
   font-size: 17px;
@@ -82,6 +82,7 @@ nav {
 
   .navBtnSub {
     font-size: 13px;
+    padding: 6.5px 8.5px;
   }
 }
 

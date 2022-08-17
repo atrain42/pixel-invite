@@ -1,0 +1,10 @@
+.arrowBtn {
+  border: none;
+  background-color: transparent;
+  color: #858435;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+  text-align: left;
+  cursor: pointer;
+}

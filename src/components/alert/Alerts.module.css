@@ -33,6 +33,7 @@
   font-family: "Inter", sans-serif;
   font-size: 17px;
   color: var(--text-black);
+  margin-bottom: 2rem;
 }
 
 @media (max-width: 1100px) {

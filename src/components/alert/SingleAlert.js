@@ -1,4 +1,7 @@
+import { Link } from "react-router-dom";
+
 import classes from "./Alerts.module.css";
+import ArrowButton from "../ArrowButton/ArrowButton";
 
 const SingleAlert = ({ title, info, img }) => {
   return (
@@ -7,6 +10,9 @@ const SingleAlert = ({ title, info, img }) => {
       <div className={classes.alertInfo}>
         <h1>{title}</h1>
         <p>{info}</p>
+        <Link to="/templates">
+          <ArrowButton title="View Templates &#8594;" />
+        </Link>
       </div>
     </div>
   );

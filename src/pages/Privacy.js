@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import classes from "./About.module.css";
 import Button from "../components/button/Button";
@@ -26,7 +27,9 @@ const About = () => {
           This prevents your shower information from living on the internet
           forever. With Pixel Invite, you never have to worry about privacy.
         </p>
-        <Button title="Get started" />
+        <Link to="/contact">
+          <Button title="Get started" />
+        </Link>
       </div>
       <Footer />
     </React.Fragment>

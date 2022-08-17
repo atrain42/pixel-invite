@@ -13,8 +13,11 @@ const Navbar = () => {
         <Dropdown />
       </div>
       <div className={classes.navButtons}>
-        <Button title="Templates" />
-        <Link to="contact">
+        <Link to="/templates">
+          <Button title="Templates" />
+        </Link>
+
+        <Link to="/contact">
           <button className={classes.navBtnSub}>Contact</button>
         </Link>
       </div>

@@ -2,6 +2,7 @@ import React from "react";
 
 import classes from "./Contact.module.css";
 import img from "../images/contact1.svg";
+import Footer from "../layout/Footer";
 
 const Contact = () => {
   return (
@@ -9,7 +10,13 @@ const Contact = () => {
       <h1 className="infoTitle">Let's get started</h1>
       <section className={classes.contactSection}>
         <img src={img} alt="contact" />
-        <form className={classes.form}>
+        <form
+          action="https://formsubmit.co/pixel.invite.info@email.com"
+          method="POST"
+          className={classes.form}
+        >
+          <input type="text" name="_honey" className={classes.honeypot} />
+          <input type="hidden" name="_captcha" value="false" />
           <span>
             <input type="text" name="First name" placeholder="First Name" />
             <input type="text" name="Last Name" placeholder="Last Name" />
@@ -27,6 +34,7 @@ const Contact = () => {
           <button type="submit">Submit</button>
         </form>
       </section>
+      <Footer />
     </div>
   );
 };

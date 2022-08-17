@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import classes from "./About.module.css";
 import Button from "../components/button/Button";
@@ -36,7 +37,9 @@ const About = () => {
           fill out the contact form and we will reach out and start building
           your site!
         </p>
-        <Button title="Get started" />
+        <Link to="/contact">
+          <Button title="Get started" />
+        </Link>
       </div>
       <Footer />
     </React.Fragment>

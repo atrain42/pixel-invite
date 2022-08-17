@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Button from "../../components/button/Button";
 
 import classes from "./Testimonial.module.css";
@@ -12,7 +13,9 @@ const Testimonial = () => {
         all the information on the shower."
       </p>
       <h4>- Sarah S, mother of three</h4>
-      <Button title="Get in touch" />
+      <Link to="/contact">
+        <Button title="Contact form" />
+      </Link>
     </section>
   );
 };

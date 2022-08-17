@@ -1,4 +1,5 @@
 import SingleAlert from "./SingleAlert";
+
 import classes from "./Alerts.module.css";
 import img1 from "../../images/info1.svg";
 import img2 from "../../images/new1.svg";

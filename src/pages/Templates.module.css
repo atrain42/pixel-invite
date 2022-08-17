@@ -2,6 +2,16 @@
   padding: 15rem 0;
 }
 
+.templates p {
+  font-family: "Inter", sans-serif;
+  font-size: 17px;
+  margin: 0 auto;
+  color: var(--text-black);
+  width: 600px;
+  text-align: center;
+  margin-top: 3rem;
+}
+
 .templateContainer {
   display: flex;
   justify-content: space-evenly;
@@ -16,11 +26,12 @@
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
     ),
-    url(../images/exampleA.png);
+    url(../images/exampleA.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
   transition: all 0.5s;
+  border-radius: 20px;
 }
 
 .imageContainer:nth-child(2) {
@@ -29,7 +40,7 @@
       rgba(0, 0, 0, 0.4),
       rgba(0, 0, 0, 0.4)
     ),
-    url(../images/exampleB.png);
+    url(../images/exampleB.jpg);
 }
 
 .imageContainer button {
@@ -52,7 +63,7 @@
       rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 0)
     ),
-    url(../images/exampleA.png);
+    url(../images/exampleA.jpg);
   scale: 1.05;
 }
 
@@ -62,5 +73,26 @@
       rgba(0, 0, 0, 0),
       rgba(0, 0, 0, 0)
     ),
-    url(../images/exampleB.png);
+    url(../images/exampleB.jpg);
+}
+
+@media (max-width: 875px) {
+  .templates {
+    padding: 15rem 2.5rem;
+    padding-bottom: 5rem;
+  }
+  .templateContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .imageContainer:nth-child(1) {
+    margin-bottom: 5rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .templates p {
+    width: 100%;
+  }
 }

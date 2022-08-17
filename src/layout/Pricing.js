@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Payment from "../components/payment/Payment";
 import Button from "../components/button/Button";
 import PricingCard from "../components/price-card/PricingCard";
@@ -47,7 +48,9 @@ const Pricing = () => {
             out the contact form. Our payment account info will be provided to
             you via email upon confirmation of your purchase.
           </p>
-          <Button title="Let's get started" />
+          <Link to="/contact">
+            <Button title="Let's get started" />
+          </Link>
         </div>
         <PricingCard />
       </div>
