@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import classes from "./Button.module.css";
+import classes from "../Template-Components/Button/Button.module.css";
 
 const Contact = (props) => {
   return (

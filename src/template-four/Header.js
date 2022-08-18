@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import classes from "./Header.module.css";
+import classes from "../Template-Components/Header/Header.module.css";
 import Button from "../Template-Components/Button/Button";
 import Loader from "../components/Loader";
 
@@ -18,7 +18,7 @@ const Header = function () {
   }
 
   return (
-    <section className={classes.header}>
+    <section className={classes.headerFour}>
       <div className={classes.headerText}>
         <h1>Join us for a baby shower</h1>
         <h1>hosted by Mikayla and Mike</h1>

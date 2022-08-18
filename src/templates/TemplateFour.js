@@ -1,18 +1,15 @@
 import React from "react";
 
-import Header from "../template-two/Header";
+import Header from "../template-four/Header";
 import Gender from "../template-two/Gender";
-import TopGifts from "../template-two/TopGifts";
 import RSVP from "../Template-Components/RSVP";
 
 import classes from "../template-two/TopGifts.module.css";
 
-const TemplateOne = function () {
+const TemplateFour = function () {
   return (
     <React.Fragment>
       <Header />
-      <Gender />
-      <TopGifts />
       <section className={classes.message}>
         <h1 className={classes.title}>A message for you</h1>
         <p>
@@ -36,9 +33,10 @@ const TemplateOne = function () {
           Love, Mikayla & Mike.
         </p>
       </section>
+      <Gender />
       <RSVP />
     </React.Fragment>
   );
 };
 
-export default TemplateOne;
+export default TemplateFour;

@@ -15,6 +15,14 @@ const templates = [
     id: 2,
     path: "/templates/template-two",
   },
+  {
+    id: 3,
+    path: "/templates/template-three",
+  },
+  {
+    id: 4,
+    path: "/templates/template-four",
+  },
 ];
 
 const Templates = () => {

@@ -1,19 +1,17 @@
 import React from "react";
 
-import Header from "../Template-Components/Header/Header";
+import Header from "../template-three/Header";
 import Message from "../Template-Components/Message/Message";
-import TopGifts from "../Template-Components/TopGifts";
 import RSVP from "../Template-Components/RSVP";
 
-const TemplateOne = function () {
+const TemplateThree = function () {
   return (
     <React.Fragment>
       <Header />
       <Message />
-      <TopGifts />
       <RSVP />
     </React.Fragment>
   );
 };
 
-export default TemplateOne;
+export default TemplateThree;
