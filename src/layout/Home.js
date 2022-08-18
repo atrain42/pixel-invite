@@ -21,8 +21,8 @@ const Home = function () {
       <section className="call-to-action">
         <h1 className="infoTitle">Ready to get started?</h1>
         <p>Fill out the contact form and we will reply within 24 hours.</p>
-        <Link to="contact">
-          <Button title="Get started" />
+        <Link to="/steps">
+          <Button title="Steps to follow" />
         </Link>
       </section>
       <Footer />

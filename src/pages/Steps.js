@@ -12,7 +12,9 @@ const Steps = () => {
       <div className={classes.aboutText}>
         <h1>Steps</h1>
         <p>
-          1. Fill out the contact form and we will respond within 24 hours.
+          1. Browse our templates and get an idea of what you want your site to
+          look like. Then, fill out the contact form and we will respond within
+          24 hours.
           <br />
           <br />
           2. Send any information that is relevant to your baby shower or that
@@ -27,6 +29,11 @@ const Steps = () => {
           <br />
           4. After payment has been recieved, we will begin working on your
           site. Please allow 2 - 3 days to complete the website.
+          <br />
+          <br />
+          5. Lastly, we will deploy your site to the internet so you can view
+          it. This is your only chance to specify any changes you may want. If
+          you want any changes, we will make them and then redeploy your site.
         </p>
         <Link to="/contact">
           <Button title="Get started" />
