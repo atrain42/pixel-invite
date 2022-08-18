@@ -71,3 +71,33 @@
     font-size: 2.5rem;
   }
 }
+
+@media (max-width: 475px) {
+  .headerText h1 {
+    font-size: 5rem;
+  }
+  .headerText h2 {
+    font-size: 3rem;
+  }
+
+  .headerText p {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .headerText h1 {
+    font-size: 4rem;
+  }
+  .headerText h2 {
+    font-size: 2.5rem;
+  }
+
+  .headerText p {
+    font-size: 1.75rem;
+  }
+
+  .btnContainer {
+    width: 25rem;
+  }
+}

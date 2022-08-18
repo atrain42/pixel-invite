@@ -29,7 +29,7 @@ const gifts = [
 const TopGifts = () => {
   return (
     <section className={classes.giftSection}>
-      <h1 className={classes.title}>Look at my top gifts</h1>
+      <h1 className="templateTitle">Look at my top gifts</h1>
       {gifts.map((gift) => {
         return <Gift key={gift.id} {...gift} />;
       })}

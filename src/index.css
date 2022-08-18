@@ -250,3 +250,23 @@ main {
     width: 100%;
   }
 }
+
+.templateTitle {
+  color: var(--text-black);
+  font-size: 55px;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+  z-index: 2;
+}
+
+@media (max-width: 675px) {
+  .templateTitle {
+    font-size: 44px;
+  }
+}
+
+@media (max-width: 475px) {
+  .templateTitle {
+    font-size: 33px;
+  }
+}

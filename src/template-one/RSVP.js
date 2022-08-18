@@ -4,7 +4,7 @@ import classes from "./RSVP.module.css";
 const RSVP = () => {
   return (
     <section className={classes.rsvp} id="rsvp" onSubmit="return false;">
-      <h1 className={classes.rsvpTitle}>RSVP</h1>
+      <h1 className="templateTitle">RSVP</h1>
       <form className={classes.rsvpForm}>
         {/* Honeypot */}
         <input type="text" name="_honey" className={classes.honeypot} />
