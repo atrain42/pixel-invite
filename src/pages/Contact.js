@@ -13,7 +13,7 @@ const Contact = () => {
         <form
           action="https://formsubmit.co/pixel.invite.info@email.com"
           method="POST"
-          className={classes.form}
+          className={classes.contactForm}
         >
           <input type="text" name="_honey" className={classes.honeypot} />
           <input type="hidden" name="_captcha" value="false" />

@@ -14,7 +14,7 @@ const Testimonial = () => {
       </p>
       <h4>- Sarah S, mother of three</h4>
       <Link to="/contact">
-        <Button title="Contact form" />
+        <Button title="Contact" />
       </Link>
     </section>
   );

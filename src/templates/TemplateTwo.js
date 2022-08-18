@@ -3,7 +3,7 @@ import React from "react";
 import Header from "../template-two/Header";
 import Gender from "../template-two/Gender";
 import TopGifts from "../template-two/TopGifts";
-import RSVP from "../template-two/RSVP";
+import RSVP from "../template-one/RSVP";
 
 import classes from "../template-two/TopGifts.module.css";
 

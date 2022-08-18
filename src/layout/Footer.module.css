@@ -39,7 +39,7 @@
 }
 
 .footerLinks h4 {
-  font-size: 12px;
+  font-size: 15px;
   margin-bottom: 1rem;
   width: 175px;
   color: var(--text-black);
@@ -64,10 +64,9 @@
   text-align: right;
 }
 
-@media (max-width: 1150px) {
-  .footer {
-    padding: 10rem 5rem;
-    padding-bottom: 5rem;
+@media (max-width: 1025px) {
+  .footer p {
+    width: 200px;
   }
 }
 
@@ -75,6 +74,13 @@
   .footer {
     padding: 10rem 2.5rem;
     padding-bottom: 5rem;
+  }
+  .footerLinks h4 {
+    font-size: 12px;
+  }
+
+  .footLink {
+    font-size: 12px;
   }
 }
 
@@ -85,5 +91,17 @@
 
   .footerLinks {
     margin-bottom: 3rem;
+  }
+
+  .footerLinks h4 {
+    font-size: 15px;
+  }
+
+  .footLink {
+    font-size: 15px;
+  }
+
+  .footer p {
+    width: 300px;
   }
 }

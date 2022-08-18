@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import classes from "./Header.module.css";
 import Button from "./Button";
-import Contact from "./Contact";
 import Loader from "../components/Loader";
 
 const Header = function () {
@@ -33,7 +32,9 @@ const Header = function () {
           title="Registry"
           source="https://www.amazon.com/baby-reg/example-registry-august-2022-linden/GT9KGEO73BXH"
         />
-        <Contact destination="/template/contact" title="RSVP" />
+        <a href="#rsvp" className={classes.rsvpBtn}>
+          RSVP
+        </a>
       </div>
     </section>
   );

@@ -30,13 +30,13 @@
   width: 500px;
   font-family: "Playfair Display", serif;
   color: var(--text-black);
-  margin-bottom: 1rem;
+  margin-bottom: 3rem;
 }
 
 .giftText p {
   font-size: 20px;
   font-weight: 600;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .giftText button {
@@ -84,4 +84,64 @@
   text-align: center;
   margin-top: 5rem;
   z-index: 2;
+}
+
+@media (max-width: 1075px) {
+  .gift img {
+    height: 30rem;
+    width: auto;
+  }
+}
+
+@media (max-width: 975px) {
+  .message {
+    padding: 10rem 2.5rem;
+    padding-bottom: 5rem;
+  }
+  .message p {
+    width: 100%;
+  }
+}
+
+@media (max-width: 950px) {
+  .giftText {
+    width: 40vw;
+  }
+
+  .giftText h1 {
+    width: 100%;
+  }
+  .gift {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 7.5rem 5rem;
+  }
+}
+
+@media (max-width: 850px) {
+  .giftOverlay {
+    clip-path: circle(150px at 75% 80%);
+  }
+
+  .gift {
+    flex-direction: column;
+  }
+
+  .gift:nth-child(3) {
+    flex-direction: column;
+  }
+
+  .giftText {
+    width: 100%;
+  }
+}
+
+@media (max-width: 725px) {
+  .gift {
+    padding: 5rem 2.5rem;
+  }
+  .giftText {
+    width: 100%;
+  }
 }
