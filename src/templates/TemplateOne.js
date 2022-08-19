@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useEffect } from "react";
 
 import Header from "../Template-Components/Header/Header";
 import Message from "../Template-Components/Message/Message";
@@ -6,8 +6,8 @@ import TopGifts from "../Template-Components/TopGifts";
 import RSVP from "../Template-Components/RSVP";
 import Loader from "../components/Loader";
 
-const TemplateOne = function () {
-  const [isLoading, setIsLoading] = useState(false);
+const TemplateOne = function ({ setIsLoading }) {
+  // const [isLoading, setIsLoading] = useState(false);
 
   useEffect(() => {
     setIsLoading(true);
@@ -18,7 +18,6 @@ const TemplateOne = function () {
 
   return (
     <React.Fragment>
-      {isLoading && <Loader />}
       <Header />
       <Message />
       <TopGifts />

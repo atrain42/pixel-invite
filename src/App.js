@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { useState } from "react";
 
 import Home from "./layout/Home";
 import About from "./pages/About";
@@ -11,12 +12,15 @@ import TemplateTwo from "./templates/TemplateTwo";
 import TemplateThree from "./templates/TemplateThree";
 import TemplateFour from "./templates/TemplateFour";
 import Contact from "./pages/Contact";
+import Loader from "./components/Loader";
 
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
+  const [isLoading, setIsLoading] = useState(false);
   return (
     <Router>
+      {isLoading && <Loader />}
       <ScrollToTop />
       <Navbar />
       <Routes>
@@ -26,10 +30,25 @@ function App() {
         <Route path="/steps" element={<Steps />} />
         <Route path="/templates" element={<Templates />} />
         <Route path="/contact" element={<Contact />} />
-        <Route path="/templates/template-one" element={<TemplateOne />} />
-        <Route path="/templates/template-two" element={<TemplateTwo />} />
-        <Route path="/templates/template-three" element={<TemplateThree />} />
-        <Route path="/templates/template-four" element={<TemplateFour />} />
+        <Route
+          path="/templates/template-one"
+          element={<TemplateOne setIsLoading={setIsLoading} />}
+        />
+        <Route
+          path="/templates/template-two"
+          element={<TemplateTwo />}
+          setIsLoading={setIsLoading}
+        />
+        <Route
+          path="/templates/template-three"
+          element={<TemplateThree />}
+          setIsLoading={setIsLoading}
+        />
+        <Route
+          path="/templates/template-four"
+          element={<TemplateFour />}
+          setIsLoading={setIsLoading}
+        />
       </Routes>
     </Router>
   );
