@@ -1,4 +1,4 @@
-import classes from "../Template-Components//Header/Header.module.css";
+import classes from "../Template-Components/Header/Header.module.css";
 import Button from "../Template-Components/Button/Button";
 
 const Header = function () {

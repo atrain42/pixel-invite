@@ -12,6 +12,7 @@
   background-size: cover;
   position: relative;
   color: rgb(227, 227, 227);
+  z-index: 1;
 }
 
 .headerThree {
@@ -26,6 +27,7 @@
   background-size: cover;
   position: relative;
   color: rgb(227, 227, 227);
+  z-index: 1;
 }
 
 .headerFour {
@@ -40,6 +42,7 @@
   background-size: cover;
   position: relative;
   color: rgb(227, 227, 227);
+  z-index: 1;
 }
 
 .headerText {

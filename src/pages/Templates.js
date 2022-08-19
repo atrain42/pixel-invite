@@ -24,7 +24,7 @@ const templates = [
   },
 ];
 
-const Templates = ({ setIsLoading }) => {
+const Templates = () => {
   return (
     <React.Fragment>
       <section className={classes.templates}>
