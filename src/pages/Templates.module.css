@@ -78,6 +78,7 @@
   border: none;
   background-color: #fff;
   font-family: "Noto Sans", sans-serif;
+  color: black;
 }
 
 .imageContainer:hover {
