@@ -1,4 +1,4 @@
-import classes from "./Header.module.css";
+import classes from "../Template-Components/Header/Header.module.css";
 import Button from "../Template-Components/Button/Button";
 
 const Header = function () {
@@ -13,10 +13,7 @@ const Header = function () {
         </p>
       </div>
       <div className={classes.btnContainer}>
-        <Button
-          title="Registry"
-          source="https://www.amazon.com/baby-reg/example-registry-august-2022-linden/GT9KGEO73BXH"
-        />
+        <Button title="Registry" source="#" />
         <a href="#rsvp" className="rsvpBtn">
           RSVP
         </a>
