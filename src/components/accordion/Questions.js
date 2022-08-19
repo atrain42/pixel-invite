@@ -5,7 +5,7 @@ const questions = [
   {
     id: 1,
     title: "Can anyone access my site?",
-    info: "No. Every site is password protected and your guests must enter the password in order to gain access to the site.",
+    info: "No. Every site is password protected and your guests must enter the password in order to gain access to the site. We generate random passwords to each site and provide you with the password.",
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const questions = [
   {
     id: 5,
     title: "How does guest RSVP work?",
-    info: "When one of your guests fills out the contact form, the information on the form is directed to your email. This allows you to easily see who is planning on attending.",
+    info: "When one of your guests fills out the contact form, the information on the form is directed to your email. This allows you to easily see who is planning on attending. Please inform us of the email you want to use.",
   },
 ];
 

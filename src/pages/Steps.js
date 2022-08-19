@@ -23,7 +23,7 @@ const Steps = () => {
           <br />
           <br />
           3. Full payment is due. Depending on the payment method you selected
-          in the contact form, we will send the corresponding account
+          in the contact form, we will send our corresponding account
           information to that platform. The full $50 is due at this point.
           <br />
           <br />

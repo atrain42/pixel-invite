@@ -12,7 +12,7 @@ const LiveSite = () => {
       </p>
       <div className={classes.mainContent}>
         <div className={classes.liveContainer}>
-          <a href="http://www.austinmaxheimer.com/">view</a>
+          <a href="https://live-template.netlify.app/">view</a>
         </div>
         <div className={classes.liveContainerText}>
           <h2>Live site information</h2>
@@ -20,7 +20,7 @@ const LiveSite = () => {
             Please enter the login information below to gain access to the site.
           </h4>
           <h3>Email: test@test.com</h3>
-          <h3>Password: testing</h3>
+          <h3>Password: testing123</h3>
         </div>
       </div>
     </section>

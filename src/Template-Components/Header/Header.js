@@ -1,22 +1,7 @@
-import { useEffect, useState } from "react";
 import classes from "./Header.module.css";
 import Button from "../Button/Button";
-import Loader from "../../components/Loader";
 
 const Header = function () {
-  const [isLoading, setIsLoading] = useState(false);
-
-  useEffect(() => {
-    setIsLoading(true);
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 750);
-  }, []);
-
-  if (isLoading) {
-    return <Loader />;
-  }
-
   return (
     <section className={classes.header}>
       <div className={classes.headerText}>
@@ -28,11 +13,8 @@ const Header = function () {
         </p>
       </div>
       <div className={classes.btnContainer}>
-        <Button
-          title="Registry"
-          source="https://www.amazon.com/baby-reg/example-registry-august-2022-linden/GT9KGEO73BXH"
-        />
-        <a href="#rsvp" className="rsvpBtn">
+        <Button title="Registry" source="#" />
+        <a href="#" className="rsvpBtn">
           RSVP
         </a>
       </div>

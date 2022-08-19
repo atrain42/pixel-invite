@@ -91,6 +91,12 @@
   }
 }
 
+@media (max-width: 550px) {
+  .btnContainer {
+    bottom: 17.5%;
+  }
+}
+
 @media (max-width: 475px) {
   .headerText h1 {
     font-size: 5rem;

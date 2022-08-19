@@ -15,6 +15,9 @@ const Footer = () => {
         </div>
         <div className={classes.footerLinks}>
           <h2>Navigation</h2>
+          <Link to="/" className={classes.footLink}>
+            Home
+          </Link>
           <Link to="/templates" className={classes.footLink}>
             Templates
           </Link>

@@ -1,14 +1,24 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 import Header from "../template-four/Header";
 import Gender from "../template-two/Gender";
 import RSVP from "../Template-Components/RSVP";
+import Loader from "../components/Loader";
 
 import classes from "../template-two/TopGifts.module.css";
 
 const TemplateFour = function () {
+  const [isLoading, setIsLoading] = useState(false);
+
+  useEffect(() => {
+    setIsLoading(true);
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 1250);
+  }, []);
   return (
     <React.Fragment>
+      {isLoading && <Loader />}
       <Header />
       <section className={classes.message}>
         <h1 className={classes.title}>A message for you</h1>

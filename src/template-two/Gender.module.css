@@ -46,3 +46,39 @@
   color: var(--text-black);
   font-size: 17px;
 }
+
+@media (max-width: 1050px) {
+  .genderText {
+    width: 40vw;
+  }
+
+  .genderContent img {
+    height: 40rem;
+    width: auto;
+  }
+}
+
+@media (max-width: 750px) {
+  .genderContent {
+    flex-direction: column;
+    align-items: center;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .genderText {
+    width: 100%;
+  }
+
+  .genderContent img {
+    height: 40rem;
+    width: 35rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .genderText h1 {
+    font-size: 35px;
+  }
+}

@@ -1,10 +1,9 @@
-import React, { useState } from "react";
+import React from "react";
 
 import classes from "./Templates.module.css";
 import LiveSite from "../components/LiveSite/LiveSite";
 import SingleTemplate from "../components/SingleTemplate";
 import Footer from "../layout/Footer";
-import Loader from "../components/Loader";
 
 const templates = [
   {
@@ -25,28 +24,18 @@ const templates = [
   },
 ];
 
-const Templates = () => {
-  const [isLoading, setIsLoading] = useState(false);
-
+const Templates = ({ setIsLoading }) => {
   return (
     <React.Fragment>
       <section className={classes.templates}>
-        {isLoading && <Loader />}
         <h1 className="infoTitle">See some examples</h1>
         <p>
-          Take a look at a few templates to give you an idea of the
-          possibilities. Remember the design is up to you and is fully
-          customizable.
+          The design of these templatesa are fully customizable. These templates
+          don't have functionality they're just for looks.
         </p>
         <div className={classes.templateContainer}>
           {templates.map((template) => {
-            return (
-              <SingleTemplate
-                key={template.id}
-                {...template}
-                setIsLoading={setIsLoading}
-              />
-            );
+            return <SingleTemplate key={template.id} {...template} />;
           })}
         </div>
         <LiveSite />

@@ -1,22 +1,7 @@
-import { useEffect, useState } from "react";
 import classes from "./Header.module.css";
 import Button from "../Template-Components/Button/Button";
-import Loader from "../components/Loader";
 
 const Header = function () {
-  const [isLoading, setIsLoading] = useState(false);
-
-  useEffect(() => {
-    setIsLoading(true);
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 750);
-  }, []);
-
-  if (isLoading) {
-    return <Loader />;
-  }
-
   return (
     <section className={classes.header}>
       <div className={classes.headerText}>
