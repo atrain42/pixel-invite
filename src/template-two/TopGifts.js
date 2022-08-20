@@ -29,8 +29,8 @@ const gifts = [
 const TopGifts = () => {
   return (
     <section className={classes.giftSection}>
-      <div className={classes.giftOverlay}></div>
-      <h1 className={classes.title}>Look at my top gifts</h1>
+      {/* <div className={classes.giftOverlay}></div> */}
+      <h1 className="infoTitle">Look at my top gifts</h1>
       {gifts.map((gift) => {
         return <Gift key={gift.id} {...gift} />;
       })}

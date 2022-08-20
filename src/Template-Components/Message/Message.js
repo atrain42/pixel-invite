@@ -3,8 +3,8 @@ import classes from "./Message.module.css";
 const Message = () => {
   return (
     <section className={classes.message}>
-      <div className={classes.messageOverlay}></div>
-      <h1 className="templateTitle">A message for you</h1>
+      {/* <div className={classes.messageOverlay}></div> */}
+      <h1 className="infoTitle">A message for you</h1>
       <p>
         Thank you guys for coming to celebrate my baby with me! I am so excited
         to bring a new life in the world, and want to share this experience with

@@ -36,10 +36,10 @@ const payments = [
 const Pricing = () => {
   return (
     <section className={classes.pricingSection}>
-      <h1 className="infoTitle">Payments made easy</h1>
+      <h1 className="infoTitle">Payments</h1>
       <div className={classes.pricingContainer}>
         <div className={classes.pricingText}>
-          <h1>We make paying for your site safe and easy</h1>
+          <h1>Paying made safe and easy</h1>
           <p>
             There is no need to enter any credit card information. Your privacy
             is important to us, which is why there is no need to insert card

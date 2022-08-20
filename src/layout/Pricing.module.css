@@ -72,6 +72,9 @@
   .paymentIconsContainer {
     width: 30rem;
   }
+  .pricingContainer {
+    padding-top: 5rem;
+  }
 
   .pricingContainer h1 {
     font-size: 25px;

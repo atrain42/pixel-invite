@@ -3,7 +3,7 @@ import Button from "../Template-Components/Button/Button";
 
 const Header = function () {
   return (
-    <section className={classes.header}>
+    <section className={classes.headerTwo}>
       <div className={classes.headerText}>
         <h1>Join us for a baby shower</h1>
         <h1>hosted by Mikayla and Mike</h1>
@@ -14,7 +14,7 @@ const Header = function () {
       </div>
       <div className={classes.btnContainer}>
         <Button title="Registry" source="#" />
-        <a href="#rsvp" className="rsvpBtn">
+        <a href="#" className="rsvpBtn">
           RSVP
         </a>
       </div>

@@ -17,7 +17,7 @@ const Header = function () {
           title="Registry"
           source="https://www.amazon.com/baby-reg/example-registry-august-2022-linden/GT9KGEO73BXH"
         />
-        <a href="#rsvp" className="rsvpBtn">
+        <a href="#" className="rsvpBtn">
           RSVP
         </a>
       </div>

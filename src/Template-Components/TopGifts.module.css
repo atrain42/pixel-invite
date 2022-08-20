@@ -12,9 +12,9 @@
   padding: 7.5rem 0;
 }
 
-.gift:nth-child(3) {
+/* .gift:nth-child(3) {
   flex-direction: row-reverse;
-}
+} */
 
 .gift img {
   height: 35rem;
@@ -87,9 +87,9 @@
     flex-direction: column;
   }
 
-  .gift:nth-child(3) {
+  /* .gift:nth-child(3) {
     flex-direction: column;
-  }
+  } */
 
   .giftText {
     width: 100%;

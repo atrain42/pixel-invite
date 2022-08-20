@@ -3,7 +3,7 @@
   position: relative;
 }
 
-.genderOverlay {
+/* .genderOverlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -12,7 +12,7 @@
   height: 100vh;
   width: 100vw;
   clip-path: circle(200px at 15% 40%);
-}
+} */
 
 .genderContent {
   display: flex;
@@ -24,6 +24,7 @@
 .genderContent img {
   height: 50rem;
   width: auto;
+  z-index: 2;
 }
 
 .genderText {
