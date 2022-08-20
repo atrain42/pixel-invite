@@ -14,7 +14,7 @@ const About = function () {
             Planning a baby shower can get complicated and there are a lot of
             things to worry about. Let us worry about the invitations. <br />
             <br />
-            At Pixel Invite, we create and deploy you a personal website that
+            At Pixel Invite, we create and deploy your own personal website that
             acts as the invitation to your baby shower. Our websites are fully
             customizable and include links to your registry. Your guests also
             have the opportunity to RSVP on your site.
