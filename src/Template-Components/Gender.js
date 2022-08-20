@@ -6,7 +6,7 @@ const Gender = () => {
   return (
     <section className={classes.gender}>
       {/* <div className={classes.genderOverlay}></div> */}
-      <h1 className="infoTitle">It's a boy!</h1>
+      <h1 className="templateTitle">It's a boy!</h1>
       <div className={classes.genderContent}>
         <img src={couple} alt="couple" />
         <div className={classes.genderText}>

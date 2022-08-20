@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 
 import Header from "../template-two/Header";
-import Gender from "../template-two/Gender";
+import Gender from "../Template-Components/Gender";
 import TopGifts from "../Template-Components/TopGifts";
 import Message from "../Template-Components/Message/Message";
 import RSVP from "../Template-Components/RSVP";

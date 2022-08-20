@@ -32,7 +32,6 @@
 @media (max-width: 975px) {
   .message {
     padding: 10rem 2.5rem;
-    padding-bottom: 5rem;
   }
   .message p {
     width: 100%;

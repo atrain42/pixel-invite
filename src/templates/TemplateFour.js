@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 
 import Header from "../template-four/Header";
 import Message from "../Template-Components/Message/Message";
-import Gender from "../template-two/Gender";
+import Gender from "../Template-Components/Gender";
 import RSVP from "../Template-Components/RSVP";
 
 import classes from "../template-two/TopGifts.module.css";
