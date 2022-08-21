@@ -6,7 +6,6 @@ const RSVP = () => {
     <section className={classes.rsvp} id="rsvp">
       <h1 className="templateTitle">RSVP</h1>
       <form className={classes.rsvpForm}>
-        {/* Honeypot */}
         <input type="text" name="_honey" className={classes.honeypot} />
         <input type="hidden" name="_captcha" value="false" />
         <div className={classes.detail}>
