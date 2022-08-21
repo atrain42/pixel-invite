@@ -19,8 +19,8 @@ const LiveSite = () => {
           <h4>
             Please enter the login information below to gain access to the site.
           </h4>
-          <h3>Email: test@test.com</h3>
-          <h3>Password: testing123</h3>
+          <h3>Email: testing@test.com</h3>
+          <h3>Password: showertest123</h3>
         </div>
       </div>
     </section>

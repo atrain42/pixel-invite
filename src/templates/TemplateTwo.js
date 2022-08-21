@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useState } from "react";
 
 import Header from "../template-two/Header";
 import Gender from "../Template-Components/Gender";
@@ -6,18 +6,18 @@ import TopGifts from "../Template-Components/TopGifts";
 import Message from "../Template-Components/Message/Message";
 import RSVP from "../Template-Components/RSVP";
 
-import classes from "../template-two/TopGifts.module.css";
+import Loader from "../components/Loader";
 
-const TemplateOne = function ({ setIsLoading }) {
-  useEffect(() => {
-    setIsLoading(true);
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 1250);
-  }, []);
+const TemplateOne = function () {
+  const [isLoading, setIsLoading] = useState(true);
+
+  setTimeout(() => {
+    setIsLoading(false);
+  }, 1250);
 
   return (
     <React.Fragment>
+      {isLoading && <Loader />}
       <Header />
       <Gender />
       <TopGifts />

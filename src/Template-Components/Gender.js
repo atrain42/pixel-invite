@@ -5,7 +5,6 @@ import classes from "./Gender.module.css";
 const Gender = () => {
   return (
     <section className={classes.gender}>
-      {/* <div className={classes.genderOverlay}></div> */}
       <h1 className="templateTitle">It's a boy!</h1>
       <div className={classes.genderContent}>
         <img src={couple} alt="couple" />

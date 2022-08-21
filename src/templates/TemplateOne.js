@@ -1,22 +1,22 @@
-import React, { useEffect } from "react";
+import React, { useState } from "react";
 
 import Header from "../Template-Components/Header/Header";
 import Message from "../Template-Components/Message/Message";
 import TopGifts from "../Template-Components/TopGifts";
 import RSVP from "../Template-Components/RSVP";
 
-const TemplateOne = function ({ setIsLoading }) {
-  // const [isLoading, setIsLoading] = useState(false);
+import Loader from "../components/Loader";
 
-  useEffect(() => {
-    setIsLoading(true);
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 1250);
-  }, []);
+const TemplateOne = function () {
+  const [isLoading, setIsLoading] = useState(true);
+
+  setTimeout(() => {
+    setIsLoading(false);
+  }, 1250);
 
   return (
     <React.Fragment>
+      {isLoading && <Loader />}
       <Header />
       <Message />
       <TopGifts />

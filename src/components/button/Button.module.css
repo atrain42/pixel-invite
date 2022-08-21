@@ -8,6 +8,15 @@
   font-size: 17px;
   font-weight: 500;
   cursor: pointer;
+  transition: all 0.25s;
+}
+
+.solidBtn:hover {
+  transform: scale(1.025);
+}
+
+.solidBtn:active {
+  transform: scale(0.975);
 }
 
 @media (max-width: 900px) {

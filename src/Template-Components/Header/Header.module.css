@@ -13,6 +13,7 @@
   position: relative;
   color: rgb(227, 227, 227);
   z-index: 1;
+  margin-bottom: 10rem;
 }
 
 .headerTwo {
@@ -28,6 +29,7 @@
   position: relative;
   color: rgb(227, 227, 227);
   z-index: 1;
+  margin-bottom: 10rem;
 }
 
 .headerThree {
@@ -43,6 +45,7 @@
   position: relative;
   color: rgb(227, 227, 227);
   z-index: 1;
+  margin-bottom: 10rem;
 }
 
 .headerFour {
@@ -58,6 +61,7 @@
   position: relative;
   color: rgb(227, 227, 227);
   z-index: 1;
+  margin-bottom: 10rem;
 }
 
 .headerText {

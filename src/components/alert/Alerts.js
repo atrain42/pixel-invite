@@ -9,13 +9,13 @@ const alerts = [
   {
     id: 1,
     title: "Custom invitations",
-    info: "All of our websites we create are custom and tailored to the customers needs and wants. When building your site, we are in constant contact with you so just let us know what info you want on your site!",
+    info: "All of the websites that we create are custom and tailored to your needs and wants. When building your site, we are in constant contact with you so just let us know what info you want on your site and we will include it!",
     img: img3,
   },
   {
     id: 2,
     title: "Password protected sites",
-    info: "We expect your website to contain private information like addresses, dates, etc. This is why all sites we create are password protected. Simply inform your guests of the password, and they will gain access to the site.",
+    info: "We expect your website to contain private information like addresses, dates, etc. This is why all of the sites we create are password protected. Simply inform your guests of the password, and they will be able to gain access to your site.",
     img: img2,
   },
   {

@@ -12,16 +12,16 @@ const About = () => {
         <h1>About us</h1>
         <p>
           Pixel Invite was created to make sending invitations easier. We live
-          in a different world today, it is time to part ways with traditional
-          invitations. At Pixel Invite, we create and deploy you a personal
-          website that acts as the invitation to your baby shower.
+          in a different world today, and it is time to part ways with
+          traditional invitations. At Pixel Invite, we create and deploy you a
+          personal website that acts as the invitation to your baby shower.
           <br />
           <br />
           Our websites are fully customizable and include links to your
           registry. Your guests also have the opportunity to RSVP on your site.
           When a guest RSVPs on your website, the information in the contact
-          form is forwarded to your desired email address, this way you can see
-          who plans on coming.
+          form is forwarded to your email address, this way you can see who
+          plans on coming.
           <br />
           <br />
           Our sites can be customized to tailor your needs. If you don't like
