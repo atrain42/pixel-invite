@@ -18,12 +18,22 @@ const Contact = () => {
           <input type="text" name="_honey" className={classes.honeypot} />
           <input type="hidden" name="_captcha" value="false" />
           <span>
-            <input type="text" name="First name" placeholder="First Name" />
-            <input type="text" name="Last Name" placeholder="Last Name" />
+            <input
+              type="text"
+              name="First name"
+              placeholder="First Name"
+              required
+            />
+            <input
+              type="text"
+              name="Last Name"
+              placeholder="Last Name"
+              required
+            />
           </span>
           <span>
-            <input type="email" name="Email" placeholder="Email" />
-            <select name="Payment method">
+            <input type="email" name="Email" placeholder="Email" required />
+            <select name="Payment method" required>
               <option value="Apple Pay">Apple Pay</option>
               <option value="Venmo">Venmo</option>
               <option value="Cashapp">Cashapp</option>
