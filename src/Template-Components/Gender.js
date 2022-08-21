@@ -9,7 +9,7 @@ const Gender = () => {
       <div className={classes.genderContent}>
         <img src={couple} alt="couple" />
         <div className={classes.genderText}>
-          <h1>Oh boy...</h1>
+          <h1>Introduction</h1>
           <p>
             Mike and I are so excited to announce that we are having a boy! Mike
             was really hoping for a boy, now he will have a permanent fishing
