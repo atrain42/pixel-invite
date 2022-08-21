@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b94031f9.css",
+    "main.js": "/static/js/main.af0edebc.js",
+    "static/media/flowers.jpg": "/static/media/flowers.e1de9f86ab7a9bf39e2a.jpg",
+    "static/media/stroller.png": "/static/media/stroller.b860928394d90ddb7a5b.png",
+    "static/media/crib.jpeg": "/static/media/crib.15ef83ac27007d05b554.jpeg",
+    "static/media/carseat.jpeg": "/static/media/carseat.78dac73e342f627699ea.jpeg",
+    "static/media/bears.jpg": "/static/media/bears.52b191830bce530ff517.jpg",
+    "static/media/roses.jpg": "/static/media/roses.cffce0bd5294712b8754.jpg",
+    "static/media/couple.jpg": "/static/media/couple.b271ffc3473c7fa55b4f.jpg",
+    "static/media/balloon.jpg": "/static/media/balloon.97e2e1e98161643f49cc.jpg",
+    "static/media/teddybear.jpg": "/static/media/teddybear.14c843a1446ed854096c.jpg",
+    "static/media/exampleB.jpg": "/static/media/exampleB.bf27289e2edbd5ca99a5.jpg",
+    "static/media/exampleD.jpg": "/static/media/exampleD.a1eed8e53d90988d3b63.jpg",
+    "static/media/trial1.svg": "/static/media/trial1.421977393d43b1a967029b5b4ce7cec9.svg",
+    "static/media/exampleC.jpg": "/static/media/exampleC.108d2c33446364be7f78.jpg",
+    "static/media/exampleA.jpg": "/static/media/exampleA.6bfbb3029fd0438eb18d.jpg",
+    "static/media/info1.svg": "/static/media/info1.65a3e87b4f083e6e7b0ed16b3f6a09cc.svg",
+    "static/media/new1.svg": "/static/media/new1.6848695e40e49e8e49b2834a83d241e5.svg",
+    "static/media/contact1.svg": "/static/media/contact1.5b78b73373e21adc82006c733a9f1b45.svg",
+    "static/media/bunny.svg": "/static/media/bunny.3cfbb6db2163a8f9045c05ec403ca8cd.svg",
+    "static/media/new2.svg": "/static/media/new2.2a95b5f29b435000d2c28e30824043e9.svg",
+    "static/media/cashapp.svg": "/static/media/cashapp.a8e9969af9487515004b3b3e113c00af.svg",
+    "static/media/venmo.svg": "/static/media/venmo.01b21599865dd78a9c9bec09930f1078.svg",
+    "static/media/applepay.svg": "/static/media/applepay.00d7c4d2435cd2e0b73aa07d5e4adca2.svg",
+    "static/media/paypal.svg": "/static/media/paypal.e3109cf270abe590115447199fc062c3.svg",
+    "index.html": "/index.html",
+    "main.b94031f9.css.map": "/static/css/main.b94031f9.css.map",
+    "main.af0edebc.js.map": "/static/js/main.af0edebc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b94031f9.css",
+    "static/js/main.af0edebc.js"
+  ]
+}
