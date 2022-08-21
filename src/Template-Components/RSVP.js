@@ -3,7 +3,7 @@ import classes from "./RSVP.module.css";
 
 const RSVP = () => {
   return (
-    <section className={classes.rsvp} id="rsvp" onSubmit="return false;">
+    <section className={classes.rsvp} id="rsvp">
       <h1 className="templateTitle">RSVP</h1>
       <form className={classes.rsvpForm}>
         {/* Honeypot */}
@@ -36,7 +36,7 @@ const RSVP = () => {
                 className={classes.check}
                 required
               />
-              <label for="I'm coming" className={classes.checkTitle}>
+              <label htmlFor="I'm coming" className={classes.checkTitle}>
                 Accept with pleasure
               </label>
             </span>
@@ -48,7 +48,7 @@ const RSVP = () => {
                 className={classes.check}
                 required
               />
-              <label for="I cant't make it" className={classes.checkTitle}>
+              <label htmlFor="I cant't make it" className={classes.checkTitle}>
                 Decline with regret
               </label>
             </span>
