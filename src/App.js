@@ -1,4 +1,9 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Navigate,
+} from "react-router-dom";
 
 import Home from "./layout/Home";
 import About from "./pages/About";
@@ -32,6 +37,7 @@ function App() {
         <Route path="/templates/template-three" element={<TemplateThree />} />
         <Route path="/templates/template-four" element={<TemplateFour />} />
         <Route path="/success" element={<Success />} />
+        <Route path="*" element={<Navigate replace to="/" />} />
       </Routes>
     </Router>
   );
