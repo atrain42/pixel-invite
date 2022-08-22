@@ -11,7 +11,7 @@ const Contact = () => {
       <section className={classes.contactSection}>
         <img src={img} alt="contact" />
         <form
-          action="https://formsubmit.co/pixel.invite.info@email.com"
+          action="https://formsubmit.co/pixel.invite.info@gmail.com"
           method="POST"
           className={classes.contactForm}
         >
