@@ -11,6 +11,7 @@ import TemplateTwo from "./templates/TemplateTwo";
 import TemplateThree from "./templates/TemplateThree";
 import TemplateFour from "./templates/TemplateFour";
 import Contact from "./pages/Contact";
+import Success from "./pages/Success";
 
 import ScrollToTop from "./components/ScrollToTop";
 
@@ -30,6 +31,7 @@ function App() {
         <Route path="/templates/template-two" element={<TemplateTwo />} />
         <Route path="/templates/template-three" element={<TemplateThree />} />
         <Route path="/templates/template-four" element={<TemplateFour />} />
+        <Route path="/success" element={<Success />} />
       </Routes>
     </Router>
   );
