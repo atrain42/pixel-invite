@@ -5,6 +5,8 @@ import {
   Navigate,
 } from "react-router-dom";
 
+import { AnimatePresence } from "framer-motion";
+
 import Home from "./layout/Home";
 import About from "./pages/About";
 import Privacy from "./pages/Privacy";
@@ -25,20 +27,22 @@ function App() {
     <Router>
       <ScrollToTop />
       <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/privacy" element={<Privacy />} />
-        <Route path="/steps" element={<Steps />} />
-        <Route path="/templates" element={<Templates />} />
-        <Route path="/contact" element={<Contact />} />
-        <Route path="/templates/template-one" element={<TemplateOne />} />
-        <Route path="/templates/template-two" element={<TemplateTwo />} />
-        <Route path="/templates/template-three" element={<TemplateThree />} />
-        <Route path="/templates/template-four" element={<TemplateFour />} />
-        <Route path="/success" element={<Success />} />
-        <Route path="*" element={<Navigate replace to="/" />} />
-      </Routes>
+      <AnimatePresence exitBeforeEnter>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/privacy" element={<Privacy />} />
+          <Route path="/steps" element={<Steps />} />
+          <Route path="/templates" element={<Templates />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/templates/template-one" element={<TemplateOne />} />
+          <Route path="/templates/template-two" element={<TemplateTwo />} />
+          <Route path="/templates/template-three" element={<TemplateThree />} />
+          <Route path="/templates/template-four" element={<TemplateFour />} />
+          <Route path="/success" element={<Success />} />
+          <Route path="*" element={<Navigate replace to="/" />} />
+        </Routes>
+      </AnimatePresence>
     </Router>
   );
 }
