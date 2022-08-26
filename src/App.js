@@ -27,7 +27,7 @@ function App() {
     <Router>
       <ScrollToTop />
       <Navbar />
-      <AnimatePresence exitBeforeEnter>
+      <AnimatePresence exitBeforeEnter initial={false}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
