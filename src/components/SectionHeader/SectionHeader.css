@@ -16,3 +16,13 @@
   height: 2px;
   border-bottom: 1px solid var(--text-black);
 }
+
+@media (max-width: 550px) {
+  .section-heading {
+    margin: 0px 0;
+  }
+
+  .linebreak {
+    width: 30vw;
+  }
+}
