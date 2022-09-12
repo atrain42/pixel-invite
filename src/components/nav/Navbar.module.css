@@ -7,10 +7,6 @@ nav {
   padding: 2rem 2rem;
 }
 
-.navButtons {
-  display: flex;
-}
-
 .home {
   color: #fff;
   font-size: 30px;
@@ -18,19 +14,6 @@ nav {
   cursor: pointer;
   font-family: "Playfair Display", serif;
   margin-right: 5rem;
-}
-
-.navBtnSub {
-  background-color: transparent;
-  border: 1px solid white;
-  border-radius: 5px;
-  padding: 9px 17px;
-  color: #fff;
-  font-family: "Noto Sans", sans-serif;
-  font-size: 17px;
-  font-weight: 500;
-  cursor: pointer;
-  margin-left: 1.5rem;
 }
 
 .titleContainer {
@@ -74,6 +57,58 @@ nav {
   margin-bottom: 0;
 }
 
+.nav .mobileNavigation {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul {
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  min-height: 100vh;
+  width: 50rem;
+  background-color: #1b6389;
+  z-index: 6;
+  padding-top: 10rem;
+  border-left: 1px solid #62849e;
+  padding-top: 200px;
+}
+
+.nav .mobileNavigation .Hamburger {
+  position: absolute;
+  right: 2%;
+  cursor: pointer;
+  z-index: 8;
+}
+
+.navLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navLinks h2 {
+  font-size: 22px;
+  margin-top: 200px;
+}
+
+.navLinks li {
+  list-style: none;
+  font-size: 33px;
+  font-family: "Ubuntu", sans-serif;
+  color: #fff;
+  text-decoration: none;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
 @media (max-width: 900px) {
   .dropdown {
     display: none;
@@ -88,5 +123,9 @@ nav {
 @media (max-width: 600px) {
   .home {
     font-size: 19px;
+  }
+
+  .nav ul {
+    width: 100%;
   }
 }

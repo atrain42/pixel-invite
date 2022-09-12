@@ -5,7 +5,7 @@ const questions = [
   {
     id: 1,
     title: "Can anyone access my site?",
-    info: "No. Every site is password protected and your guests must enter the password in order to gain access to the site. We generate random passwords to each site and provide you with the password.",
+    info: "Yes! Anyone who has the link to your website will be able to view the content. However, we offer a password protected version where we generate a random passwords to your site that protects it from unwanted guests.",
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const questions = [
   {
     id: 4,
     title: "Does my website stay up forever?",
-    info: "We take your website down a week after your baby shower. This prevents the information about your baby shower from living on the internet longer then it needs to.",
+    info: "We take your website down a week after your baby shower. This prevents the information about your baby shower from living on the internet longer then it needs to. However, if you don't want us to take your site down, we won't.",
   },
   {
     id: 5,

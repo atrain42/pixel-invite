@@ -1,5 +1,6 @@
 import classes from "../Template-Components/Header/Header.module.css";
 import Button from "../Template-Components/Button/Button";
+import { Link } from "react-router-dom";
 
 const Header = function () {
   return (
@@ -14,9 +15,9 @@ const Header = function () {
       </div>
       <div className={classes.btnContainer}>
         <Button title="Registry" source="#" />
-        <a href="#" className="rsvpBtn">
+        <Link to="/" className="rsvpBtn">
           RSVP
-        </a>
+        </Link>
       </div>
     </section>
   );

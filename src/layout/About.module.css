@@ -2,6 +2,7 @@
 .aboutSection {
   padding: 0 150px;
   padding-top: 10rem;
+  padding-bottom: 75px;
 }
 
 .aboutContainer {
@@ -41,6 +42,7 @@
   .aboutSection {
     padding: 0 10rem;
     padding-top: 10rem;
+    padding-bottom: 75px;
   }
   .aboutContainer img {
     width: 35rem;
@@ -53,6 +55,7 @@
   .aboutSection {
     padding: 0 5rem;
     padding-top: 10rem;
+    padding-bottom: 75px;
   }
 
   .aboutContainer img {
@@ -71,6 +74,7 @@
   .aboutSection {
     padding: 0 2.5rem;
     padding-top: 5rem;
+    padding-bottom: 75px;
   }
 
   .aboutContainer {

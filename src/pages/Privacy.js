@@ -18,24 +18,58 @@ const About = () => {
         <React.Fragment>
           <div className={classes.aboutText}>
             <h1>Privacy Policy</h1>
-            <p>
-              Protecting you is very important to us. This is why we don't
-              require you to input any credit card information into our site.
-              Simply specifiy the payment platform you use, and we will give you
-              our username for that account.
-              <br />
-              <br />
-              All of the sites that we create for our customers are password
-              protected. This means that if you don't have the password, there
-              is no way to access your site. This allows sensitive information
-              like addresses and names to be protected.
-              <br />
-              <br />
-              We take your website down a week after your baby shower has
-              concluded. This prevents your shower information from living on
-              the internet forever. With Pixel Invite, you never have to worry
-              about privacy.
-            </p>
+            <div className={classes.aboutItem}>
+              <h2>1. What information do we collect?</h2>
+              <h3>Personal Information you disclose to us</h3>
+              <p>
+                In short: We collect the personal information you provide to us
+                in the contact form. <br></br>
+                <br></br>We collect the personal information that you
+                voluntarily provide to us when you are completing your purchase.
+                This only includes your name and email address<br></br>
+                <br></br>
+              </p>
+              <h3>
+                Sensative information: we do not access any sensitive
+                information
+              </h3>
+              <p>
+                We do not access any sensitive information. We don't require you
+                to input any banking information or any credit card information.
+              </p>
+            </div>
+            <div className={classes.aboutItem}>
+              <h2>2. How do we process your information?</h2>
+              <p>
+                In short: your information is processed privately and is not
+                shared with any 3rd parties. Your information is only used to
+                contact you, and is not stored in any database or anything.
+                <br></br>
+                <br></br>
+              </p>
+              <h3>
+                With your consent, we may process your information to post
+                testimonials on our website.
+              </h3>
+            </div>
+            <div className={classes.aboutItem}>
+              <h2>3. How long do we keep your information?</h2>
+              <p>
+                In short: we keep your information until all payments and
+                services are finalized. We do this because we may need to
+                contact you when creating your website. <br></br>
+                <br></br>Once your payment is final and your website is deployed
+                on the internet, we do not store your information anywhere.
+              </p>
+            </div>
+            <div className={classes.aboutItem}>
+              <h2>4. How can you contact us about this notice?</h2>
+              <p>
+                If you have any questions or comments about this notice, you may
+                email us at pixel.invite.info@gmail.com.<br></br>
+                <br></br>Pixel Invite, your information kept safe.
+              </p>
+            </div>
             <Link to="/contact">
               <Button title="Get started" />
             </Link>

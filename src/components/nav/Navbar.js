@@ -1,26 +1,19 @@
 import classes from "./Navbar.module.css";
-import Button from "../button/Button";
+
 import Dropdown from "../dropdown/Dropdown";
 import { Link } from "react-router-dom";
+import MobileNavigation from "./MobileNavigation";
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className={classes.nav}>
       <div className={classes.titleContainer}>
         <Link className={classes.home} to="/">
           Pixel Invite
         </Link>
         <Dropdown />
       </div>
-      <div className={classes.navButtons}>
-        <Link to="/templates">
-          <Button title="Templates" />
-        </Link>
-
-        <Link to="/contact">
-          <button className={classes.navBtnSub}>Contact</button>
-        </Link>
-      </div>
+      <MobileNavigation />
     </nav>
   );
 };

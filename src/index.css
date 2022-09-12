@@ -185,7 +185,8 @@ main {
 
 /* ----------------- */
 .infoSection {
-  padding: 20rem 0;
+  padding: 10rem 0;
+  padding-top: 75px;
 }
 .infoTitle {
   font-size: 55px;

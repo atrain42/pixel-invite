@@ -9,19 +9,19 @@ const alerts = [
   {
     id: 1,
     title: "Custom invitations",
-    info: "All of the websites that we create are custom and tailored to your needs and wants. When building your site, we are in constant contact with you so just let us know what info you want on your site and we will include it!",
+    info: "All of the websites that we create are custom and tailored to your needs and wants. When building your site, we will keep in touch with you to ensure that your site is satisfying your needs and wants. All of the templates can be customized, just specify any changes you want, and we will incorporate it into your site!",
     img: img3,
   },
   {
     id: 2,
     title: "Password protected sites",
-    info: "We expect your website to contain private information like addresses, dates, etc. This is why all of the sites we create are password protected. Simply inform your guests of the password, and they will be able to gain access to your site.",
+    info: "We give you the opportunity to password protect your website. We know you may have private information like names and addresses, we can add authentication to prevent unwanted users from seeing your baby shower information. Just provide your guests with the password to your site, and they will be able to gain access to it.",
     img: img2,
   },
   {
     id: 3,
     title: "Browse our templates",
-    info: "Take a look at some example websites that we have built to get an idea of the different routes we can take when creating your site. Also, you have the chance to see a completed site with password protection and a functional contact form.",
+    info: "Take a look at some example websites that we have built to get an idea of the different routes we can take when creating your site. All sections of the templates can be customized to fit your needs including the quotes, pictures, texts, etc.",
     img: img1,
   },
 ];

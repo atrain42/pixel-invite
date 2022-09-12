@@ -15,7 +15,7 @@ const SingleAlert = ({ title, info, img }) => {
       <div className={classes.alertInfo} ref={ref}>
         <h1
           style={{
-            transform: isInView ? "none" : "translateX(40px)",
+            transform: isInView ? "none" : "translateX(20px)",
             opacity: isInView ? 1 : 0,
             transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1)",
           }}
@@ -23,7 +23,14 @@ const SingleAlert = ({ title, info, img }) => {
           {title}
         </h1>
         <p>{info}</p>
-        <Link to="/templates">
+        <Link
+          to="/templates"
+          style={{
+            transform: isInView ? "none" : "translateY(10px)",
+            opacity: isInView ? 1 : 0,
+            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 1s",
+          }}
+        >
           <ArrowButton title="View Templates &#8594;" />
         </Link>
       </div>

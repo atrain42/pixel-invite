@@ -14,7 +14,7 @@ const Header = function () {
       </div>
       <div className={classes.btnContainer}>
         <Button title="Registry" source="#" />
-        <a href="#" className="rsvpBtn">
+        <a href="/" className="rsvpBtn">
           RSVP
         </a>
       </div>
