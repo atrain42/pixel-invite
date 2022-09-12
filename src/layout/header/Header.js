@@ -1,14 +1,41 @@
 import classes from "./Header.module.css";
 import { Link } from "react-router-dom";
 import Image from "../../images/bunny.svg";
+import { useRef } from "react";
+import { useInView } from "framer-motion";
 
 const Header = () => {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true });
+
   return (
-    <section className={classes.header}>
+    <section className={classes.header} ref={ref}>
       <div className={classes.headerText}>
-        <h1>Baby shower </h1>
-        <h1>invitations made</h1>
-        <h1>simple.</h1>
+        <h1
+          style={{
+            opacity: isInView ? 1 : 0,
+            transition: "all 2s ease-in",
+          }}
+        >
+          Baby shower{" "}
+        </h1>
+        <h1
+          style={{
+            opacity: isInView ? 1 : 0,
+            transition: "all 2s ease-in 0.5s",
+          }}
+        >
+          invitations made
+        </h1>
+        <h1
+          style={{
+            transform: isInView ? "none" : "translateX(20px)",
+            opacity: isInView ? 1 : 0,
+            transition: "all 1s cubic-bezier(0.17, 0.55, 0.55, 1) 1.25s",
+          }}
+        >
+          simple.
+        </h1>
         <p>
           At Pixel Invite, we create your own personal website that acts as an
           invitation to your baby shower. Planning baby showers are hard, let us
