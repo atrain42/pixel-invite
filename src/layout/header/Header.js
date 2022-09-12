@@ -1,7 +1,6 @@
 import classes from "./Header.module.css";
 import { Link } from "react-router-dom";
 import Image from "../../images/bunny.svg";
-import Button from "../../components/button/Button";
 
 const Header = () => {
   return (
@@ -18,9 +17,8 @@ const Header = () => {
         </p>
         <div className={classes.navButtons}>
           <Link to="/templates">
-            <Button title="Templates" />
+            <button className={classes.navBtn}>Templates</button>
           </Link>
-
           <Link to="/contact">
             <button className={classes.navBtnSub}>Contact</button>
           </Link>
