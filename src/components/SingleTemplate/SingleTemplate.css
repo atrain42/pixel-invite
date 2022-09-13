@@ -6,8 +6,7 @@
 }
 
 .imageContainer {
-  width: 50rem;
-  height: 55rem;
+  width: 40rem;
   padding: 20px 20px;
   background-color: #f8f8f8;
   border-radius: 20px;
@@ -29,7 +28,7 @@
 
 .imageContainer img {
   width: 100%;
-  height: 100%;
+  height: 80%;
   border-radius: 20px;
 }
 
@@ -76,42 +75,28 @@
 
 @media (max-width: 900px) {
   .imageContainer {
-    width: 50rem;
-    height: 55rem;
+    width: 40rem;
   }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 550px) {
   .imageContainer {
     width: 40rem;
-    height: 55rem;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  /* .imageContainer img {
-    width: 90%;
-    height: 80%;
-    border-radius: 20px;
-  } */
+  .image {
+    width: 100%;
+    height: 30rem;
+    position: relative;
+    z-index: 5;
+  }
 }
 
 @media (max-width: 450px) {
   .imageContainer {
-    width: 30rem;
-    height: 42.5rem;
-  }
-
-  .imageContainer img {
-    height: 100%;
-    border-radius: 20px;
-  }
-}
-
-@media (max-width: 350px) {
-  .imageContainer {
     width: 100%;
-    height: 42.5rem;
   }
 }
