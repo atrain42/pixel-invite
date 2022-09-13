@@ -29,17 +29,6 @@ const NavLinks = (props) => {
           <li>Home</li>
         </Link>
         <Link
-          to="/contact"
-          onClick={() => props.isMobile && props.closeMobileMenu()}
-          style={{
-            transform: isInView ? "none" : "translateY(40px)",
-            opacity: isInView ? 1 : 0,
-            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s",
-          }}
-        >
-          <li>Contact</li>
-        </Link>
-        <Link
           to="/templates"
           onClick={() => props.isMobile && props.closeMobileMenu()}
           style={{
@@ -49,6 +38,17 @@ const NavLinks = (props) => {
           }}
         >
           <li>Templates</li>
+        </Link>
+        <Link
+          to="/contact"
+          onClick={() => props.isMobile && props.closeMobileMenu()}
+          style={{
+            transform: isInView ? "none" : "translateY(40px)",
+            opacity: isInView ? 1 : 0,
+            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.1s",
+          }}
+        >
+          <li>Contact</li>
         </Link>
 
         <h2>&#xA9; Pixel Invite, 2022.</h2>
