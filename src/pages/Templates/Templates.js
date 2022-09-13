@@ -24,7 +24,7 @@ const templates = [
   },
   {
     path: "https://pixelinvite-horizon.netlify.app/",
-    text: "Our simplistic approach to a website design. This site includes the following pages: Home, Registry, and RSVP pages.",
+    text: "Our horizon template is a one page application. There is no redirects; the user just keeps scrolling!",
     title: "Horizon",
     source: ss2,
     bgImg: sunset,
@@ -38,7 +38,7 @@ const templates = [
   },
   {
     path: "/templates/template-one",
-    text: "Our simplistic approach to a website design. This site includes the following pages: Home, Registry, and RSVP pages.",
+    // text: "Our simplistic approach to a website design. This site includes the following pages: Home, Registry, and RSVP pages.",
     title: "Coming soon...",
     source: ss4,
     bgImg: lunar,

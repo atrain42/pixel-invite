@@ -20,19 +20,13 @@ const About = () => {
             <h1>Privacy Policy</h1>
             <div className={classes.aboutItem}>
               <h2>1. What information do we collect?</h2>
-              <h3>Personal Information you disclose to us</h3>
               <p>
                 In short: We collect the personal information you provide to us
                 in the contact form. <br></br>
                 <br></br>We collect the personal information that you
                 voluntarily provide to us when you are completing your purchase.
                 This only includes your name and email address<br></br>
-                <br></br>
               </p>
-              <h3>
-                Sensative information: we do not access any sensitive
-                information
-              </h3>
               <p>
                 We do not access any sensitive information. We don't require you
                 to input any banking information or any credit card information.
@@ -46,11 +40,9 @@ const About = () => {
                 contact you, and is not stored in any database or anything.
                 <br></br>
                 <br></br>
-              </p>
-              <h3>
                 With your consent, we may process your information to post
                 testimonials on our website.
-              </h3>
+              </p>
             </div>
             <div className={classes.aboutItem}>
               <h2>3. How long do we keep your information?</h2>
