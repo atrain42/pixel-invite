@@ -9,12 +9,12 @@ const alerts = [
   {
     id: 1,
     title: "Custom invitations",
-    info: "All of the websites that we create are custom and tailored to your needs and wants. When building your site, we will keep in touch with you to ensure that your site is satisfying your needs and wants. All of the templates can be customized, just specify any changes you want, and we will incorporate it into your site!",
+    info: "All of the websites that we create are custom and tailored to your needs. When building your site, we will keep in touch with you to ensure that your site is satisfies your needs. All of the templates can be customized, just specify any changes you want, and we will incorporate it into your site!",
     img: img3,
   },
   {
     id: 2,
-    title: "Password protected sites",
+    title: "Password protected option",
     info: "We give you the opportunity to password protect your website. We know you may have private information like names and addresses, we can add authentication to prevent unwanted users from seeing your baby shower information. Just provide your guests with the password to your site, and they will be able to gain access to it.",
     img: img2,
   },
