@@ -28,7 +28,7 @@ const About = function () {
           <p>
             Browse the templates and get an idea of who we are and what we do.
             If you want to purchase a site, fill out the contact form and we
-            will get back with you within 24 hours.
+            will get back to you within 24 hours.
           </p>
         </div>
         <div className={classes.aboutText}>
