@@ -51,39 +51,6 @@ const NavLinks = (props) => {
           <li>Templates</li>
         </Link>
 
-        <Link
-          to="/privacy"
-          onClick={() => props.isMobile && props.closeMobileMenu()}
-          style={{
-            transform: isInView ? "none" : "translateY(40px)",
-            opacity: isInView ? 1 : 0,
-            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.3s",
-          }}
-        >
-          <li>Privacy</li>
-        </Link>
-        <Link
-          to="/about"
-          onClick={() => props.isMobile && props.closeMobileMenu()}
-          style={{
-            transform: isInView ? "none" : "translateY(40px)",
-            opacity: isInView ? 1 : 0,
-            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.4s",
-          }}
-        >
-          <li>About</li>
-        </Link>
-        <Link
-          to="/steps"
-          onClick={() => props.isMobile && props.closeMobileMenu()}
-          style={{
-            transform: isInView ? "none" : "translateY(40px)",
-            opacity: isInView ? 1 : 0,
-            transition: "all 0.9s cubic-bezier(0.17, 0.55, 0.55, 1) 0.5s",
-          }}
-        >
-          <li>Steps</li>
-        </Link>
         <h2>&#xA9; Pixel Invite, 2022.</h2>
       </motion.li>
     </ul>

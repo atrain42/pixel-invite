@@ -189,7 +189,7 @@ main {
   padding-top: 75px;
 }
 .infoTitle {
-  font-size: 55px;
+  font-size: 33px;
   font-family: "Playfair Display", serif;
   font-weight: 400;
   text-align: center;
@@ -222,10 +222,6 @@ main {
   .payment-icon {
     height: 4rem;
     width: 4rem;
-  }
-
-  .infoTitle {
-    font-size: 44px;
   }
 
   .infoSection {

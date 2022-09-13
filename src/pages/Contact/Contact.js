@@ -1,12 +1,9 @@
 import React, { useState } from "react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 
 import classes from "./Contact.module.css";
-import img from "../images/contact1.svg";
-import Footer from "../layout/Footer";
-
-import FormLoader from "../components/FormLoader/FormLoader";
-import { AnimatePresence } from "framer-motion";
+import Footer from "../../layout/Footer";
+import FormLoader from "../../components/FormLoader/FormLoader";
 
 const Contact = () => {
   const [formLoading, setFormLoading] = useState(false);
@@ -27,7 +24,6 @@ const Contact = () => {
           <div className={classes.contactBin}>
             <h1 className="infoTitle">Let's get started</h1>
             <section className={classes.contactSection}>
-              <img src={img} alt="contact" />
               <form
                 action="https://formsubmit.co/pixel.invite.info@gmail.com"
                 method="POST"

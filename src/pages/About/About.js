@@ -1,13 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { motion, AnimatePresence } from "framer-motion";
 
 import classes from "./About.module.css";
-import Button from "../components/button/Button";
-import Footer from "../layout/Footer";
-
-import { motion } from "framer-motion";
-
-import { AnimatePresence } from "framer-motion";
+import Button from "../../components/button/Button";
+import Footer from "../../layout/Footer";
 
 const About = () => {
   return (

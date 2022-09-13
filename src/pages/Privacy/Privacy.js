@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-import classes from "./About.module.css";
-import Button from "../components/button/Button";
-import Footer from "../layout/Footer";
+import classes from "../About/About.module.css";
+import Button from "../../components/button/Button";
+import Footer from "../../layout/Footer";
 import { AnimatePresence } from "framer-motion";
 
 const About = () => {
