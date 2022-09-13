@@ -8,6 +8,8 @@ import { AnimatePresence } from "framer-motion";
 
 import ss1 from "../../images/ss1.png";
 import ss2 from "../../images/ss2.jpg";
+import ss3 from "../../images/ss3.png";
+import ss4 from "../../images/soon.jpg";
 import orbital from "../../images/space.png";
 import sunset from "../../images/sunset.png";
 import astronomy from "../../images/astronomy.png";
@@ -28,17 +30,17 @@ const templates = [
     bgImg: sunset,
   },
   {
-    path: "/templates/template-one",
-    text: "Our simplistic approach to a website design. This site includes the following pages: Home, Registry, and RSVP pages.",
-    title: "Coming soon...",
-    source: ss1,
+    path: "https://pixelinvite-ozone.netlify.app/",
+    text: "This template includes a beautiful loading spinner and subtle animations that creates a memorable user experience.",
+    title: "Ozone",
+    source: ss3,
     bgImg: astronomy,
   },
   {
     path: "/templates/template-one",
     text: "Our simplistic approach to a website design. This site includes the following pages: Home, Registry, and RSVP pages.",
     title: "Coming soon...",
-    source: ss1,
+    source: ss4,
     bgImg: lunar,
   },
 ];
