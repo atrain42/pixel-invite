@@ -28,6 +28,12 @@ const NavLinks = (props) => {
         >
           <li>Home</li>
         </Link>
+      </motion.li>
+      <motion.li
+        initial={animateFrom}
+        animate={animateTo}
+        transition={{ delay: 0.2 }}
+      >
         <Link
           to="/templates"
           onClick={() => props.isMobile && props.closeMobileMenu()}
@@ -39,6 +45,12 @@ const NavLinks = (props) => {
         >
           <li>Templates</li>
         </Link>
+      </motion.li>
+      <motion.li
+        initial={animateFrom}
+        animate={animateTo}
+        transition={{ delay: 0.3 }}
+      >
         <Link
           to="/contact"
           onClick={() => props.isMobile && props.closeMobileMenu()}
@@ -50,9 +62,8 @@ const NavLinks = (props) => {
         >
           <li>Contact</li>
         </Link>
-
-        <h2>&#xA9; Pixel Invite, 2022.</h2>
       </motion.li>
+      <h2>&#xA9; Pixel Invite, 2022.</h2>
     </ul>
   );
 };

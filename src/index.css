@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&?family=Lora&family=Noto+Sans:wght@500&family=Playfair+Display&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&?family=Lora&family=Lora&family=Noto+Sans:wght@500&family=Playfair+Display&family=Ubuntu&display=swap");
 body {
   margin: 0;
   overflow-x: hidden;
@@ -216,6 +216,34 @@ main {
 .payment-icon {
   height: 6rem;
   width: 6rem;
+}
+
+#orbital {
+  background-image: url(./images/orbital.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#horizon {
+  background-image: url(./images/horizon.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#ozone {
+  background-image: url(./images/ozone.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#lunar {
+  background-image: url(./images/soon.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 630px) {
