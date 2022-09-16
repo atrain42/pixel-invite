@@ -1,3 +1,6 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+
 import {
   BrowserRouter as Router,
   Route,
@@ -18,7 +21,7 @@ import Steps from "./pages/Steps/Steps";
 import Templates from "./pages/Templates/Templates";
 
 import Navbar from "./components/nav/Navbar";
-import ScrollToTop from "./components/ScrollToTop";
+
 import Models from "./components/SingleTemplate/Models";
 
 const templates = [
@@ -51,6 +54,16 @@ const templates = [
     info: "Coming soon...",
   },
 ];
+
+function ScrollToTop() {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+}
 
 function App() {
   return (

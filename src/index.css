@@ -219,14 +219,14 @@ main {
 }
 
 #orbital {
-  background-image: url(./images/orbital.png);
+  background-image: url(./images/orbital.webp);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 #horizon {
-  background-image: url(./images/horizon.png);
+  background-image: url(./images/horizon.webp);
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
