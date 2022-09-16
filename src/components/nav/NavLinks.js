@@ -63,7 +63,6 @@ const NavLinks = (props) => {
           <li>Contact</li>
         </Link>
       </motion.li>
-      <h2>&#xA9; Pixel Invite, 2022.</h2>
     </ul>
   );
 };
