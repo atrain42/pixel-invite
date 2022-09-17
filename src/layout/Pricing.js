@@ -58,8 +58,8 @@ const Pricing = () => {
         <PricingCard />
       </div>
       <span class={classes.paymentHeader}>
-        <h2>methods we accept</h2>
-        <p>we don't require you to insert card information.</p>
+        <h2>METHODS WE ACCEPT</h2>
+        <p>We don't require you to insert card information.</p>
       </span>
       <div className={classes.paymentIconsContainer}>
         {payments.map((payment) => {

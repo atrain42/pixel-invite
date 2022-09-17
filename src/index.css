@@ -8,13 +8,13 @@ html {
   font-size: 62.5%;
 }
 
-/* Break */
-
-/*
-=============== 
-Variables
-===============
-*/
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 :root {
   --clr-black: #222;
@@ -26,19 +26,6 @@ Variables
   --max-width: 1170px;
   --fixed-width: 920px;
   --text-black: #404040;
-}
-/*
-=============== 
-Global Styles
-===============
-*/
-
-*,
-::after,
-::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 @media screen and (min-width: 800px) {
@@ -66,17 +53,18 @@ Global Styles
 }
 /*  global classes */
 
+.section-break {
+  height: 1px;
+  width: 70vw;
+  border-bottom: 1px solid var(--text-black);
+  margin: 50px auto;
+}
+
 @media screen and (min-width: 992px) {
   .section {
     width: 95vw;
   }
 }
-
-/*
-=============== 
-Questions
-===============
-*/
 
 main {
   min-height: 100vh;

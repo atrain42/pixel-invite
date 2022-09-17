@@ -58,6 +58,7 @@
   margin-bottom: 10px;
   font-size: 19px;
   color: var(--text-black);
+  font-weight: 600;
 }
 
 .paymentHeader p {

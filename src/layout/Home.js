@@ -11,10 +11,6 @@ import Testimonial from "../components/testimonial/Testimonial";
 import Questions from "../components/accordion/Questions";
 import Button from "../components/button/Button";
 import Footer from "./Footer";
-import SectionHeader from "../components/SectionHeader/SectionHeader";
-
-//images
-import hello from "../images/hello.png";
 
 const Home = function () {
   return (
@@ -26,7 +22,7 @@ const Home = function () {
       <>
         <Header />
         <Mission />
-        <SectionHeader src={hello} alt="heart" />
+        <div className="section-break"></div>
         <Info />
         <Pricing />
         <Testimonial />
