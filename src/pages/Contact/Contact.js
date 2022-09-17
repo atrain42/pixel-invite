@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-import classes from "./Contact.module.css";
+//components
 import Footer from "../../layout/Footer";
 import FormLoader from "../../components/FormLoader/FormLoader";
+
+//styles
+import classes from "./Contact.module.css";
 
 const Contact = () => {
   const [formLoading, setFormLoading] = useState(false);

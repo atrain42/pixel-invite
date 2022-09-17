@@ -2,10 +2,12 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 
-import classes from "../About/About.module.css";
-
+//components
 import Button from "../../components/button/Button";
 import Footer from "../../layout/Footer";
+
+//styles
+import classes from "../About/About.module.css";
 
 const Steps = () => {
   return (

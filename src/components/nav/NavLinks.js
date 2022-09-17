@@ -1,6 +1,8 @@
 import React, { useRef } from "react";
 import { Link } from "react-router-dom";
 import { motion, useInView } from "framer-motion";
+
+//styles
 import classes from "./Navbar.module.css";
 
 const NavLinks = (props) => {
@@ -29,6 +31,7 @@ const NavLinks = (props) => {
           <li>Home</li>
         </Link>
       </motion.li>
+      <div className={classes.navLinebreak}></div>
       <motion.li
         initial={animateFrom}
         animate={animateTo}
@@ -46,6 +49,7 @@ const NavLinks = (props) => {
           <li>Templates</li>
         </Link>
       </motion.li>
+      <div className={classes.navLinebreak}></div>
       <motion.li
         initial={animateFrom}
         animate={animateTo}

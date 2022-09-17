@@ -1,10 +1,12 @@
 import React from "react";
-import { motion } from "framer-motion";
+import { motion, AnimatePresence } from "framer-motion";
 
-import classes from "./Templates.module.css";
+//components
 import SingleTemplate from "../../components/SingleTemplate/SingleTemplate";
 import Footer from "../../layout/Footer";
-import { AnimatePresence } from "framer-motion";
+
+//styles
+import classes from "./Templates.module.css";
 
 const Templates = ({ data }) => {
   return (

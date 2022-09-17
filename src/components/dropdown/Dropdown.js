@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+
+//icons
 import { AiFillCaretDown } from "react-icons/ai";
 
+//styles
 import classes from "../nav/Navbar.module.css";
 
 const Dropdown = () => {

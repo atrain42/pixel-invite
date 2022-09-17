@@ -1,8 +1,11 @@
-import classes from "./Navbar.module.css";
-
-import Dropdown from "../dropdown/Dropdown";
 import { Link } from "react-router-dom";
+
+//components
+import Dropdown from "../dropdown/Dropdown";
 import MobileNavigation from "./MobileNavigation";
+
+//styles
+import classes from "./Navbar.module.css";
 
 const Navbar = () => {
   return (

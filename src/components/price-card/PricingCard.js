@@ -1,5 +1,8 @@
-import classes from "./PricingCard.module.css";
+//icons
 import { AiFillCheckCircle } from "react-icons/ai";
+
+//styles
+import classes from "./PricingCard.module.css";
 
 const PricingCard = () => {
   return (

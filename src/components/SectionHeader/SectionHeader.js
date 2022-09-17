@@ -1,5 +1,7 @@
 import { useRef } from "react";
 import { useInView } from "framer-motion";
+
+//styles
 import "./SectionHeader.css";
 
 const SectionHeader = (props) => {

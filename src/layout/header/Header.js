@@ -1,8 +1,11 @@
-import classes from "./Header.module.css";
-import { Link } from "react-router-dom";
-import Image from "../../images/bunny.svg";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 import { useInView } from "framer-motion";
+//images
+import Image from "../../images/bunny.svg";
+
+//styles
+import classes from "./Header.module.css";
 
 const Header = () => {
   const ref = useRef(null);

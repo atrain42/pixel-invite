@@ -1,6 +1,10 @@
+//components
 import SingleAlert from "./SingleAlert";
 
+//styles
 import classes from "./Alerts.module.css";
+
+//images
 import img1 from "../../images/info1.svg";
 import img2 from "../../images/new1.svg";
 import img3 from "../../images/new2.svg";

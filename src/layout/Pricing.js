@@ -1,13 +1,15 @@
-import { Link } from "react-router-dom";
+//components
 import Payment from "../components/payment/Payment";
-import Button from "../components/button/Button";
 import PricingCard from "../components/price-card/PricingCard";
 
+//images
 import cashapp from "../images/cashapp.svg";
 import paypal from "../images/paypal.svg";
 import venmo from "../images/venmo.svg";
 import applepay from "../images/applepay.svg";
+import handwall from "../images/hand-in-wall.png";
 
+//styles
 import classes from "./Pricing.module.css";
 
 const payments = [
@@ -38,22 +40,13 @@ const Pricing = () => {
     <section className={classes.pricingSection}>
       <h1 className="infoTitle">Payments</h1>
       <div className={classes.pricingContainer}>
-        <div className={classes.pricingText}>
-          <h1>Paying made safe and easy</h1>
-          <p>
-            There is no need to enter any credit card information. Your privacy
-            is important to us, which is why there is no need to insert card
-            information We accept payments via PayPal, Apple Pay, Venmo, and
-            CashApp. Please specify your intended payment method when filling
-            out the contact form. Our payment account info will be provided to
-            you via email upon confirmation of your purchase.
-          </p>
-          <Link to="/contact">
-            <Button title="Let's get started" />
-          </Link>
-        </div>
+        <img src={handwall} alt="graphic" />
         <PricingCard />
       </div>
+      <span class={classes.paymentHeader}>
+        <h2>methods we accept</h2>
+        <p>we don't require you to insert card information.</p>
+      </span>
       <div className={classes.paymentIconsContainer}>
         {payments.map((payment) => {
           return <Payment key={payment.id} {...payment} />;

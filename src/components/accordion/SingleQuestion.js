@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { AiOutlineMinus, AiOutlinePlus } from "react-icons/ai";
 
+//styles
 import classes from "./Question.module.css";
 
 const Question = ({ title, info }) => {

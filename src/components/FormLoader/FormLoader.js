@@ -1,3 +1,4 @@
+//styles
 import classes from "./FormLoader.module.css";
 
 const FormLoader = () => {

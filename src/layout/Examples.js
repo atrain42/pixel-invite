@@ -1,3 +1,4 @@
+//components
 import ProductList from "../components/ProductList";
 
 const Examples = function () {

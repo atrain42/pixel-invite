@@ -1,6 +1,9 @@
 import { Link } from "react-router-dom";
+
+//components
 import Button from "../../components/button/Button";
 
+//styles
 import classes from "./Testimonial.module.css";
 
 const Testimonial = () => {

@@ -1,3 +1,4 @@
+//components
 import Alerts from "../components/alert/Alerts";
 
 const Info = () => {

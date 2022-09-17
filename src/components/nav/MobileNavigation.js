@@ -1,8 +1,12 @@
 import { useState } from "react";
 import NavLinks from "./NavLinks";
-import classes from "./Navbar.module.css";
+
+//icons
 import { BiMenuAltRight } from "react-icons/bi";
 import { IoMdClose } from "react-icons/io";
+
+//styles
+import classes from "./Navbar.module.css";
 
 const MobileNavigation = () => {
   const [open, setOpen] = useState(false);

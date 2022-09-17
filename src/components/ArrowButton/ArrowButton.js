@@ -1,3 +1,4 @@
+//styles
 import classes from "./ArrowButton.module.css";
 
 const ArrowButton = ({ title }) => {

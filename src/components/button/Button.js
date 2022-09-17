@@ -1,3 +1,4 @@
+//styles
 import classes from "./Button.module.css";
 
 const Button = ({ title }) => {

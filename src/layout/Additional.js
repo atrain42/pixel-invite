@@ -1,3 +1,4 @@
+//components
 import Questions from "../components/accordion/Questions";
 
 const Additional = () => {

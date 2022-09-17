@@ -2,8 +2,11 @@ import { Link } from "react-router-dom";
 import { useRef } from "react";
 import { useInView } from "framer-motion";
 
-import classes from "./Alerts.module.css";
+//components
 import ArrowButton from "../ArrowButton/ArrowButton";
+
+//styles
+import classes from "./Alerts.module.css";
 
 const SingleAlert = ({ title, info, img }) => {
   const ref = useRef(null);

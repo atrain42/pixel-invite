@@ -1,8 +1,6 @@
-import { useParams, Link } from "react-router-dom";
-import { motion } from "framer-motion";
-import { AnimatePresence } from "framer-motion";
 import { useRef } from "react";
-import { useInView } from "framer-motion";
+import { useParams, Link } from "react-router-dom";
+import { motion, AnimatePresence, useInView } from "framer-motion";
 
 //components
 import Footer from "../../layout/Footer";

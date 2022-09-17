@@ -1,4 +1,6 @@
 import SingleQuestion from "./SingleQuestion";
+
+//styles
 import classes from "./Question.module.css";
 
 const questions = [
@@ -15,7 +17,7 @@ const questions = [
   {
     id: 3,
     title: "What information do I provide?",
-    info: "It is recommended that you provide your address, gender and name of the baby (if known), and any other information you may want to be on your website.",
+    info: "Upon confirmation, we will provide you with a form for you to fill out, of information that we recommend you provide to us. Also, it is requested that you send all the pictures that you want on the site.",
   },
   {
     id: 4,
