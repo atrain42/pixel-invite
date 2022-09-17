@@ -21,10 +21,17 @@
 
 .mission-text h1 {
   color: var(--text-black);
-  margin-bottom: 20px;
-  border-bottom: 1px solid var(--text-black);
-  padding-bottom: 10px;
+  margin-bottom: 10px;
+  /* border-bottom: 1px solid var(--text-black); */
+  /* padding-bottom: 10px; */
   font-size: 40px;
+}
+
+.mission-break {
+  height: 1px;
+  width: 125px;
+  border-bottom: 1px solid var(--text-black);
+  margin-bottom: 25px;
 }
 
 .mission-text p {

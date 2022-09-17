@@ -38,10 +38,7 @@ const About = () => {
                 <br />
                 Our sites can be customized to tailor your needs. If you don't
                 like the background images on our templates, just supply your
-                own. If you want to give guests specific information on your
-                party; for example, where to park, then include it on your
-                website. You can also advertise your top registry gifts so the
-                guests can get an idea of what you need most.
+                own. You supply your own images, text, quotes etc.
                 <br />
                 <br />
                 The website possibilities are endless, and we have top-notch
