@@ -1,5 +1,5 @@
 import { useRef } from "react";
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { motion, AnimatePresence, useInView } from "framer-motion";
 
 //components
@@ -63,15 +63,15 @@ const Models = ({ data }) => {
                   >
                     {card.info}
                   </p>
-                  <Link
-                    to="/contact"
+                  <a
+                    href={card.path}
                     style={{
                       opacity: isInView ? 1 : 0,
                       transition: "all 1s ease-in 1.25s",
                     }}
                   >
-                    Get started &#8594;
-                  </Link>
+                    View site &#8594;
+                  </a>
                 </div>
               </div>
             ))}
