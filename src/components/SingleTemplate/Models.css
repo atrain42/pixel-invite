@@ -109,3 +109,15 @@
     height: 15rem;
   }
 }
+
+@media (max-height: 700px) {
+  .model-overhang {
+    padding-top: 15rem;
+  }
+}
+
+@media (max-height: 560px) {
+  .model-overhang {
+    padding-top: 20rem;
+  }
+}
