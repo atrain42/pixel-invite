@@ -113,6 +113,7 @@
 @media (max-height: 700px) {
   .model-overhang {
     padding-top: 15rem;
+    margin-bottom: 15rem;
   }
 }
 
