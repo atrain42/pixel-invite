@@ -11,15 +11,17 @@ import img3 from '../../images/stacked-papers.png'
 const alerts = [
   {
     id: 2,
-    title: "Password protected option",
-    info: "We give you the opportunity to password protect your website. We know you may have private information like names and addresses, we can add authentication to prevent unwanted users from seeing your baby shower information. Just provide your guests with the password to your site, and they will be able to gain access to it.",
+    title: "Tailored to your needs",
+    info: "Each site is tailored to suit your unique preferences. Simply share with us your photos, additional details, addresses, etc. and we'll seamlessly incorporate them into your personalized website.",
     img: img2,
+    flexDirection: classes.alertContainer
   },
   {
     id: 3,
     title: "Browse our templates",
-    info: "Take a look at some example websites that we have built to get an idea of the different routes we can take when creating your site. All sections of the templates can be customized to fit your needs including the quotes, pictures, texts, etc.",
+    info: "Visit the different templates to get an idea of which design you want to choose.",
     img: img3,
+    flexDirection: classes.alertContainerReverse
   },
 ];
 

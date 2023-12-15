@@ -3,19 +3,21 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 8rem;
 }
 
 .subtitle {
   color: var(--primary_color);
   margin-bottom: 1rem;
   font-size: 14px;
-  font-family: "Lora", serif;
+  font-family: "Open Sans", serif;
   font-weight: 600;
 }
 
 .title {
   font-size: 40px;
-  font-family: "Playfair Display", serif;
+  font-family: "Raleway", serif;
+  font-weight: 400;
   color: var(--header_text);
   margin-bottom: 2rem;
 }
@@ -25,6 +27,8 @@
   width: 55rem;
   text-align: center;
   margin-bottom: 4rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
   color: var(--paragraph);
 }
 

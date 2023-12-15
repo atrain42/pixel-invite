@@ -8,12 +8,12 @@ import ArrowButton from "../ArrowButton/ArrowButton";
 //styles
 import classes from "./Alerts.module.css";
 
-const SingleAlert = ({ title, info, img }) => {
+const SingleAlert = ({ title, info, img, flexDirection }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
 
   return (
-    <div className={classes.alertContainer}>
+    <div className={flexDirection}>
       <img src={img} alt={title} />
       <div className={classes.alertInfo} ref={ref}>
         <h1

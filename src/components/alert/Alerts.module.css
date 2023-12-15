@@ -1,15 +1,26 @@
 .alert {
-  padding: 0 2.5rem;
   background-color: var(--background);
+  display: flex;
+  flex-direction: column;
+  gap: 75px;
 }
 
 .alertContainer {
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 100px;
 }
 
-.alertContainer img {
+.alertContainerReverse {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+img {
   height: 45rem;
   width: 45rem;
 }
@@ -17,21 +28,22 @@
 .alertInfo {
   display: flex;
   flex-direction: column;
-  width: 600px;
+  width: 450px;
 }
 
 .alertInfo h1 {
-  font-size: 38px;
-  font-family: "Playfair Display", serif;
+  font-size: 30px;
+  font-family: "Raleway", serif;
   font-weight: 600;
-  margin-bottom: 30px;
-  color: var(--text-black);
+  margin-bottom: 10px;
+  color: var(--header_text);
 }
 
 .alertInfo p {
-  font-family: "Lora", sans-serif;
-  font-size: 17px;
-  color: var(--text-black);
+  font-family: 'Open Sans', sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+  color: var(--paragraph);
   margin-bottom: 2rem;
 }
 

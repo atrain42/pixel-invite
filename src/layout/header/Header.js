@@ -25,12 +25,12 @@ const Header = () => {
         <h1 style={animation('0.65s', '0s')}>Baby shower </h1>
         <h1 style={animation('0.65s', '0.35s')}>invitations made</h1>
         <h1 style={animation('0.65s', '0.7s')}>simple.</h1>
-        <p>
+        <p style={animation('0.65s', '1.05s')}>
           At Pixel Invite, we create your own personal website that acts as an
           invitation to your baby shower. Planning baby showers is hard, let us
           worry about the invitations.
         </p>
-        <div className={classes.navButtons}>
+        <div style={animation('0.65s', '1.40s')} className={classes.navButtons}>
           <Link to='/templates'>
             <button className={classes.navBtn}>Browse Templates</button>
           </Link>

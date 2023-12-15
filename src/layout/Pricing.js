@@ -12,6 +12,8 @@ import venmo from "../images/venmo.svg";
 import applepay from "../images/applepay.svg";
 import handwall from "../images/deal-maker.png";
 
+import SectionHeader from "../components/sectionHeader/SectionHeader";
+
 //styles
 import classes from "./Pricing.module.css";
 
@@ -44,15 +46,19 @@ const Pricing = () => {
 
   return (
     <section className={classes.pricingSection}>
-      <h1 className="infoTitle">Payments</h1>
+      <SectionHeader
+        subtitle='STRAIGHTFORWARD & EASY'
+        title='Payments made simple'
+        text="We will not build your site until the full amount has been paid upfront. Check below for the payment options."
+      />
       <div className={classes.pricingContainer} ref={ref}>
         <img
           src={handwall}
-          alt="graphic"
+          alt='graphic'
           style={{
-            transform: isInView ? "none" : "scale()",
+            transform: isInView ? 'none' : 'scale()',
             opacity: isInView ? 1 : 0,
-            transition: "all 1s ease-in 0.25s",
+            transition: 'all 1s ease-in 0.25s',
           }}
         />
         <PricingCard />
@@ -63,11 +69,11 @@ const Pricing = () => {
       </span>
       <div className={classes.paymentIconsContainer}>
         {payments.map((payment) => {
-          return <Payment key={payment.id} {...payment} />;
+          return <Payment key={payment.id} {...payment} />
         })}
       </div>
     </section>
-  );
+  )
 };
 
 export default Pricing;
