@@ -4,7 +4,6 @@
 }
 
 .pricingContainer {
-  padding: 10rem 0;
   display: flex;
   justify-content: space-evenly;
 }
@@ -50,20 +49,24 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-family: "Lora", sans-serif;
+  font-size: 30px;
+  font-family: "Raleway", serif;
+  font-weight: 600;
+  color: var(--header_text);
+  margin-bottom: 1rem;
+  margin-top: 10rem;
 }
 
-.paymentHeader h2 {
-  margin-bottom: 10px;
-  font-size: 19px;
-  color: var(--text-black);
-  font-weight: 600;
+.paymentHeader span {
+  margin-bottom: 0.5rem;
 }
 
 .paymentHeader p {
-  text-align: center;
-  font-size: 16px;
-  margin-bottom: 40px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 19px;
+  font-weight: 300;
+  color: var(--paragraph);
+  margin-bottom: 3rem;
 }
 
 @media (max-width: 1100px) {

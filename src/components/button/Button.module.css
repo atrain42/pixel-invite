@@ -1,23 +1,28 @@
 .solidBtn {
   color: var(--button_text);
-  background-color: var(--primary_color);
+  background-color: var(--background);
+  letter-spacing: 1px;
   padding: 10px 30px;
   border: none;
   border-radius: 5px;
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 17px;
   font-weight: 500;
   cursor: pointer;
-  transition: all 0.25s;
+  transition: all 0.15s ease-in;
+  border: 1px solid #33272a;
   width: 100%;
-}
-
-.solidBtn:hover {
-  transform: scale(1.025);
+  box-shadow: 0 3px 10px 4px rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
 }
 
 .solidBtn:active {
   transform: scale(0.975);
+}
+
+@media (hover: hover) {
+  .solidBtn:hover {
+    border-radius: 15px;
+  }
 }
 
 @media (max-width: 900px) {

@@ -19,7 +19,7 @@ const alerts = [
   {
     id: 3,
     title: "Browse our templates",
-    info: "Visit the different templates to get an idea of which design you want to choose.",
+    info: "We have a few different designs for you to choose from. Preview the different templates, choose a design, and fill out the contact form accordingly.",
     img: img3,
     flexDirection: classes.alertContainerReverse
   },

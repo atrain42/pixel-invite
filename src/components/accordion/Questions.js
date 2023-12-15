@@ -3,6 +3,8 @@ import SingleQuestion from "./SingleQuestion";
 //styles
 import classes from "./Question.module.css";
 
+import SectionHeader from "../sectionHeader/SectionHeader";
+
 const questions = [
   {
     id: 1,
@@ -33,14 +35,18 @@ const questions = [
 
 const Questions = () => {
   return (
-    <main>
-      <h1 className="infoTitle">We have answers</h1>
+    <section>
+      <SectionHeader 
+        subtitle="COMMON QUESTIONS"
+        title="We have answers"
+        text="Here are anwswers to commonly asked questions."
+      />
       <div className={classes.container}>
         {questions.map((question) => {
           return <SingleQuestion key={question.id} {...question} />;
         })}
       </div>
-    </main>
+    </section>
   );
 };
 export default Questions;

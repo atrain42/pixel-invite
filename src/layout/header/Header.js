@@ -20,19 +20,19 @@ const Header = () => {
   }
 
   return (
-    <section className={classes.header} ref={ref}>
+    <header className={classes.header} ref={ref}>
       <div className={classes.headerText}>
-        <h1 style={animation('0.65s', '0s')}>Baby shower </h1>
-        <h1 style={animation('0.65s', '0.35s')}>invitations made</h1>
-        <h1 style={animation('0.65s', '0.7s')}>simple.</h1>
-        <p style={animation('0.65s', '1.05s')}>
+        <h1 style={animation('0.5s', '0s')}>Baby shower </h1>
+        <h1 style={animation('0.5s', '0.25s')}>invitations made</h1>
+        <h1 style={animation('0.5s', '0.50s')}>simple.</h1>
+        <p style={animation('0.5s', '.75s')}>
           At Pixel Invite, we create your own personal website that acts as an
           invitation to your baby shower. Planning baby showers is hard, let us
           worry about the invitations.
         </p>
-        <div style={animation('0.65s', '1.40s')} className={classes.navButtons}>
+        <div style={animation('0.5s', '1.00s')} className={classes.navButtons}>
           <Link to='/templates'>
-            <button className={classes.navBtn}>Browse Templates</button>
+            <button className={classes.navBtn}>Browse templates</button>
           </Link>
           <Link to='/contact'>
             <button className={classes.navBtnSub}>Get started</button>
@@ -43,7 +43,7 @@ const Header = () => {
       <div className={classes.svgContainer}>
         <img src={Image} alt='' className={classes.headerSvg} />
       </div>
-    </section>
+    </header>
   )
 };
 

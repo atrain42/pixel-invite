@@ -49,22 +49,17 @@ const Pricing = () => {
       <SectionHeader
         subtitle='STRAIGHTFORWARD & EASY'
         title='Payments made simple'
-        text="We will not build your site until the full amount has been paid upfront. Check below for the payment options."
+        text="We don't require you to insert card information. Check below for the payment options. We will not build your site until the full amount has been paid upfront."
       />
       <div className={classes.pricingContainer} ref={ref}>
         <img
           src={handwall}
-          alt='graphic'
-          style={{
-            transform: isInView ? 'none' : 'scale()',
-            opacity: isInView ? 1 : 0,
-            transition: 'all 1s ease-in 0.25s',
-          }}
+          alt='pricing vector graphic'
         />
         <PricingCard />
       </div>
       <span class={classes.paymentHeader}>
-        <h2>Payment Methods</h2>
+        <span>Payment Methods</span>
         <p>We don't require you to insert card information.</p>
       </span>
       <div className={classes.paymentIconsContainer}>

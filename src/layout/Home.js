@@ -9,10 +9,7 @@ import Mission from "../layout/Mission";
 import Pricing from "../layout/Pricing";
 import Testimonial from "../components/testimonial/Testimonial";
 import Questions from "../components/accordion/Questions";
-import Button from "../components/button/Button";
 import Footer from "./Footer";
-
-import balloons from '../images/balloons-PI.png'
 
 const Home = function () {
   return (
@@ -27,14 +24,6 @@ const Home = function () {
         <Pricing />
         <Testimonial />
         <Questions />
-        <section className="call-to-action">
-          <img src={balloons} alt="happy balloons" className="call-to-action-img"></img>
-          <h1 className="infoTitle">Ready to get started?</h1>
-          <p>Fill out the contact form and we will reply within 24 hours.</p>
-          <Link to="/steps">
-            <Button title="Steps to follow" />
-          </Link>
-        </section>
         <Footer />
       </>
     </motion.div>

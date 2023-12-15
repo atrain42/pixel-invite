@@ -1,8 +1,7 @@
 /* --------Footer-------- */
 .footer {
   width: 100vw;
-  background-color: #f5f5f5;
-  padding: 10rem 10rem;
+  padding: 0rem 10rem;
   padding-bottom: 5rem;
   display: flex;
   flex-direction: column;
@@ -14,18 +13,21 @@
   justify-content: space-between;
 }
 
-.footer h1 {
+/* .footer h1 {
   font-family: "Playfair Display", serif;
   color: var(--text-black);
   font-size: 30px;
   margin-bottom: 2rem;
-}
+} */
 
 .footer p {
-  font-size: 15px;
-  font-family: "Ubuntu", sans-serif;
-  width: 300px;
-  line-height: 1.4;
+  font-size: 19px;
+  width: 55rem;
+  text-align: center;
+  margin-bottom: 4rem;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: var(--paragraph);
 }
 
 .footerLinks {

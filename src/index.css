@@ -9,6 +9,10 @@ html {
   background-color: var(--background);
 }
 
+section {
+  margin-bottom: 30rem;
+}
+
 *,
 ::after,
 ::before {
@@ -144,17 +148,15 @@ main {
 
 /* ----------------- */
 .infoTitle {
-  font-size: 33px;
-  font-family: "Playfair Display", serif;
+  font-size: 40px;
+  font-family: "Raleway", serif;
   font-weight: 400;
-  text-align: center;
-  color: var(--text-black);
-  z-index: 2;
+  color: var(--header_text);
+  margin-bottom: 2rem;
 }
 
 /* ------Call to action------- */
 .call-to-action {
-  padding: 10rem 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -171,6 +173,7 @@ main {
   margin-bottom: 4.5rem;
   margin-top: 2rem;
   text-align: center;
+  width: 300px;
 }
 
 .payment-icon {
@@ -211,22 +214,12 @@ main {
     height: 3rem;
     width: 3rem;
   }
-
-  .infoSection {
-    padding: 10rem 0;
-    padding-top: 75px;
-  }
 }
 
 @media (max-width: 475px) {
   .infoTitle {
     font-size: 33px;
   }
-
-  .call-to-action {
-    padding: 10rem 2.5rem;
-  }
-
   .call-to-action p {
     width: 100%;
   }

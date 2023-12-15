@@ -3,7 +3,7 @@ import { useRef } from "react";
 import { useInView } from "framer-motion";
 
 //components
-import ArrowButton from "../ArrowButton/ArrowButton";
+import Button from "../button/Button";
 
 //styles
 import classes from "./Alerts.module.css";
@@ -16,32 +16,16 @@ const SingleAlert = ({ title, info, img, flexDirection }) => {
     <div className={flexDirection}>
       <img src={img} alt={title} />
       <div className={classes.alertInfo} ref={ref}>
-        <h1
-          style={{
-            transform: isInView ? "none" : "translateX(20px)",
-            opacity: isInView ? 1 : 0,
-            transition: "all 0.75s ease-in",
-          }}
-        >
+        <h1>
           {title}
         </h1>
-        <p
-          style={{
-            opacity: isInView ? 1 : 0,
-            transition: "all 0.75s ease-in 0.5s",
-          }}
-        >
+        <p className={classes.alertText}>
           {info}
         </p>
         <Link
           to="/templates"
-          style={{
-            transform: isInView ? "none" : "translateY(10px)",
-            opacity: isInView ? 1 : 0,
-            transition: "all 0.75s ease-in 1s",
-          }}
         >
-          <ArrowButton title="View Templates &#8594;" />
+          <Button title="View templates" />
         </Link>
       </div>
     </div>
