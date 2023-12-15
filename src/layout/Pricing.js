@@ -10,7 +10,7 @@ import cashapp from "../images/cashapp.svg";
 import paypal from "../images/paypal.svg";
 import venmo from "../images/venmo.svg";
 import applepay from "../images/applepay.svg";
-import handwall from "../images/hand-in-wall.png";
+import handwall from "../images/deal-maker.png";
 
 //styles
 import classes from "./Pricing.module.css";
@@ -58,7 +58,7 @@ const Pricing = () => {
         <PricingCard />
       </div>
       <span class={classes.paymentHeader}>
-        <h2>METHODS WE ACCEPT</h2>
+        <h2>Payment Methods</h2>
         <p>We don't require you to insert card information.</p>
       </span>
       <div className={classes.paymentIconsContainer}>

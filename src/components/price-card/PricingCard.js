@@ -10,7 +10,7 @@ const PricingCard = () => {
       <h2>Our Offer</h2>
       <h3>Fully customized invitation website</h3>
       <h4>
-        $50
+        $75
         <span>
           <h6>/site</h6>
         </span>
@@ -21,7 +21,7 @@ const PricingCard = () => {
       </div>
       <div className={classes.checkbox}>
         <AiFillCheckCircle className={classes.check} />
-        <h5>Password protected</h5>
+        <h5>Personalized images</h5>
       </div>
       <div className={classes.checkbox}>
         <AiFillCheckCircle className={classes.check} />

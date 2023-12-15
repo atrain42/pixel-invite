@@ -1,10 +1,18 @@
 //components
 import Alerts from "../components/alert/Alerts";
+import SectionHeader from '../components/sectionHeader/SectionHeader'
+
 
 const Info = () => {
   return (
-    <section className="infoSection">
-      <h2 className="infoTitle">A new way to invite</h2>
+    <section>
+      <SectionHeader 
+        subtitle="WARM WELCOME"
+        title="Invites made simple"
+        text="Just share the link to your site and guests can RSVP. No need to worry about collecting addresses
+        and mailing out invitations.
+        "
+      />
       <Alerts />
     </section>
   );

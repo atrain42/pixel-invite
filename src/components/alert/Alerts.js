@@ -5,17 +5,10 @@ import SingleAlert from "./SingleAlert";
 import classes from "./Alerts.module.css";
 
 //images
-import img1 from "../../images/info1.svg";
-import img2 from "../../images/new1.svg";
-import img3 from "../../images/new2.svg";
+import img2 from "../../images/school-notes.png";
+import img3 from '../../images/stacked-papers.png'
 
 const alerts = [
-  {
-    id: 1,
-    title: "Custom invitations",
-    info: "All of the websites that we create are custom and tailored to your needs. When building your site, we will keep in touch with you to ensure that your site is satisfies your needs. All of the templates can be customized, just specify any changes you want, and we will incorporate it into your site!",
-    img: img3,
-  },
   {
     id: 2,
     title: "Password protected option",
@@ -26,7 +19,7 @@ const alerts = [
     id: 3,
     title: "Browse our templates",
     info: "Take a look at some example websites that we have built to get an idea of the different routes we can take when creating your site. All sections of the templates can be customized to fit your needs including the quotes, pictures, texts, etc.",
-    img: img1,
+    img: img3,
   },
 ];
 

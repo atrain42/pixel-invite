@@ -2,6 +2,7 @@
   padding: 3rem 3rem;
   box-shadow: 0 0 10px 0px rgb(175, 175, 175);
   border-radius: 10px;
+  background-color: #f6efeb;
 }
 
 .pricingCard h2 {
@@ -51,7 +52,7 @@ span h6 {
 .check {
   width: 3rem;
   height: 3rem;
-  color: #858435;
+  color: var(--primary_color);
   margin-right: 10px;
 }
 

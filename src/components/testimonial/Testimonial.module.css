@@ -10,14 +10,14 @@
 .testimonialSection p {
   font-size: 38px;
   font-family: "Lora", sans-serif;
-  color: var(--text-black);
+  color: var(--paragraph);
   text-align: center;
   width: 95rem;
 }
 
 .testimonialSection h4 {
   font-size: 17px;
-  color: var(--text-black);
+  color: var(--header_text);
   font-family: "Inter", sans-serif;
   margin-top: 5rem;
   margin-bottom: 5rem;

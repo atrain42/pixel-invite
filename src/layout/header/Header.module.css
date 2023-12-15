@@ -1,6 +1,6 @@
 .header {
   padding-left: 10rem;
-  background-color: #00486f;
+  background-color: var(--background);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -10,18 +10,18 @@
 }
 
 .header h1 {
-  font-family: "Lora", serif;
+  font-family: "Raleway", serif;
   font-size: 55px;
   font-weight: 400;
-  color: #fff;
+  color: var(--header_text);
   line-height: 1.25;
 }
 
-.header p {
-  font-family: "Inter", sans-serif;
-  font-size: 17px;
+.headerText p {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 19px;
   font-weight: 300;
-  color: rgb(210, 210, 210);
+  color: var(--paragraph);
   margin-top: 3rem;
   width: 40vw;
   line-height: 1.4;
@@ -47,35 +47,48 @@
 
 .navBtnSub {
   background-color: transparent;
-  border: 1px solid white;
+  border: 1px solid #33272a;
+  background-color: #c3f0ca;
   border-radius: 5px;
-  padding: 9px 0;
-  color: #fff;
-  font-family: "Lora", sans-serif;
+  padding: 15px 0;
+  color: #33272a;
   font-size: 17px;
+  letter-spacing: 1px;
   cursor: pointer;
   width: 100%;
   height: 100%;
-  box-shadow: 0px 0px 10px 3px rgba(50, 50, 50, 0.389);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  transition: all 0.15s ease-in;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .navBtn {
-  background-color: #858435;
-  border: 1px solid #858435;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ff8ba7;
+  border: 1px solid #33272a;
   border-radius: 5px;
-  padding: 9px 0;
-  color: #fff;
-  font-family: "Lora", sans-serif;
+  padding: 15px 0;
+  color: #33272a;
+  letter-spacing: 1px;
   font-size: 17px;
   cursor: pointer;
   width: 100%;
-  box-shadow: 0px 0px 10px 3px rgba(50, 50, 50, 0.389);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  transition: all 0.15s ease-in;
 }
 
 @media (hover: hover) {
   .exploreBtn:hover {
     border-radius: 15px;
     background-color: rgba(107, 99, 255, 0.144);
+  }
+
+  .navBtn:hover {
+    border-radius: 15px;
+  }
+
+  .navBtnSub:hover { 
+    border-radius: 15px;
   }
 }
 

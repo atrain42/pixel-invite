@@ -3,22 +3,45 @@ nav {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  background-color: #00486f;
-  padding: 2rem 2rem;
+  background-color: #faeee7;
+  padding: 4rem 6em;
+}
+
+.logo {
+  height: 55px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.linkContainer {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.linkContainer a {
+  color: var(--paragraph);
+  font-size: 18px;
+  font-family: 'Raleway', serif;
 }
 
 .home {
-  color: #fff;
-  font-size: 30px;
+  color: var(--header_text);
+  font-size: 20px;
   text-decoration: none;
   cursor: pointer;
-  font-family: "Playfair Display", serif;
+  font-family: "Raleway", serif;
   margin-right: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .titleContainer {
   display: flex;
   align-items: center;
+  justify-content: space-between;
+  width: 100%;
 }
 
 /* -----Dropdown Button----- */

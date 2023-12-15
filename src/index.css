@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter&?family=Lora&family=Lora&family=Noto+Sans:wght@500&family=Playfair+Display&family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&?Lora:wght@700&family=Noto+Sans:wght@500&family=Raleway:wght@200;300;400;500;600&Open+Sans:wght@300;400;500&family=Playfair+Display&family=Ubuntu&display=swap");
 body {
   margin: 0;
   overflow-x: hidden;
@@ -6,6 +6,7 @@ body {
 
 html {
   font-size: 62.5%;
+  background-color: var(--background);
 }
 
 *,
@@ -25,7 +26,13 @@ html {
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --max-width: 1170px;
   --fixed-width: 920px;
-  --text-black: #404040;
+  --text-black: #1d1d1d;
+  --primary_color: #ff8ba7;
+  --secondary_color: #c3f0ca;
+  --header_text: #33272a;
+  --button_text: #33272a;
+  --paragraph: #594a4e;
+  --background: #faeee7;
 }
 
 @media screen and (min-width: 800px) {
@@ -143,10 +150,6 @@ main {
 }
 
 /* ----------------- */
-.infoSection {
-  padding: 10rem 0;
-  padding-top: 75px;
-}
 .infoTitle {
   font-size: 33px;
   font-family: "Playfair Display", serif;
@@ -162,6 +165,11 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.call-to-action-img {
+  height: 275px;
+  width: auto;
 }
 
 .call-to-action p {

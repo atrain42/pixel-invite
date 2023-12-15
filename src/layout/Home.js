@@ -12,6 +12,8 @@ import Questions from "../components/accordion/Questions";
 import Button from "../components/button/Button";
 import Footer from "./Footer";
 
+import balloons from '../images/balloons-PI.png'
+
 const Home = function () {
   return (
     <motion.div
@@ -21,13 +23,12 @@ const Home = function () {
     >
       <>
         <Header />
-        <Mission />
-        <div className="section-break"></div>
         <Info />
         <Pricing />
         <Testimonial />
         <Questions />
         <section className="call-to-action">
+          <img src={balloons} alt="happy balloons" className="call-to-action-img"></img>
           <h1 className="infoTitle">Ready to get started?</h1>
           <p>Fill out the contact form and we will reply within 24 hours.</p>
           <Link to="/steps">

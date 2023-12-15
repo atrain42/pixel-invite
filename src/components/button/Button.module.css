@@ -1,7 +1,7 @@
 .solidBtn {
-  color: #fff;
-  background-color: #858435;
-  padding: 10px 20px;
+  color: var(--button_text);
+  background-color: var(--primary_color);
+  padding: 10px 30px;
   border: none;
   border-radius: 5px;
   font-family: "Noto Sans", sans-serif;

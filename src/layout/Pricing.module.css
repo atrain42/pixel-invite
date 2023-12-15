@@ -1,6 +1,6 @@
 /* -------- Pricing Section --------- */
 .pricingSection {
-  background-color: #f5f5f5;
+  background-color: var(--background);
   padding: 10rem 0;
 }
 
