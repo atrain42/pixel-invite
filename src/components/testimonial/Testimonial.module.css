@@ -39,6 +39,7 @@
   font-weight: 300;
   color: var(--paragraph);
   line-height: 1.4;
+  width: 100%;
 }
 
 .testimonialCard img {
@@ -53,6 +54,7 @@
   color: var(--header_text);
   font-family: "Inter", sans-serif;
   font-weight: bold;
+  width: 100%;
 }
 
 .testimonialCardLine {
@@ -96,21 +98,21 @@
   }
 }
 
-@media (max-width: 900px) {
-  .testimonialBtn {
-    font-size: 13px;
-    padding: 7.5px 8.5px;
+@media (max-width: 1280px) {
+  .testimonialCard {
+    width: 100%;
   }
 }
 
-@media (max-width: 1000px) {
-  .testimonialSection p {
-    width: 90vw;
+@media (max-width: 1024px) {
+  .largeTestimonial {
+    font-size: 28px;
+    width: 100%;
   }
 }
 
-@media (max-width: 630px) {
-  .testimonialSection p {
-    font-size: 20px;
+@media (max-width: 768px) {
+  .testimonialCardContainer {
+    grid-template-columns: 1fr;
   }
 }

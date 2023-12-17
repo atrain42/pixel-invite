@@ -81,7 +81,6 @@
 @media (hover: hover) {
   .exploreBtn:hover {
     border-radius: 15px;
-    background-color: rgba(107, 99, 255, 0.144);
   }
 
   .navBtn:hover {

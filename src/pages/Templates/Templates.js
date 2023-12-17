@@ -3,6 +3,7 @@ import { motion, AnimatePresence } from "framer-motion";
 
 //components
 import SingleTemplate from "../../components/SingleTemplate/SingleTemplate";
+import SectionHeader from '../../components/sectionHeader/SectionHeader'
 import Footer from "../../layout/Footer";
 
 //styles
@@ -49,11 +50,11 @@ const Templates = () => {
       >
         <React.Fragment>
           <div className={classes.templates}>
-            <h1 className="infoTitle">View our beautiful templates</h1>
-            <p className={classes.templateInfo}>
-              From unique designs to eye-catching animations, our websites have
-              everything you need to advertise your baby shower.
-            </p>
+            <SectionHeader 
+              subtitle="START HERE"
+              title="Browse our templates"
+              text="Visit the different templates and decide which one best fits your needs"
+            />
             <div className={classes.templateContainer}>
               {templates.map((template, index) => {
                 return <SingleTemplate key={index} {...template} />;

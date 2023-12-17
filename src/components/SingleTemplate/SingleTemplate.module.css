@@ -109,3 +109,9 @@
     height: 15rem;
   }
 }
+
+@media (hover: hover) {
+  .templateBtn:hover {
+    border-radius: 15px;
+  }
+}

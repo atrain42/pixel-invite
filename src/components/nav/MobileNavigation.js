@@ -15,7 +15,7 @@ const MobileNavigation = () => {
     <BiMenuAltRight
       className={classes.Hamburger}
       size="40px"
-      color="white"
+      color="#ff8ba7"
       onClick={() => setOpen(!open)}
     />
   );
@@ -23,11 +23,11 @@ const MobileNavigation = () => {
   const closeIcon = (
     <IoMdClose
       className={classes.Hamburger}
-      size="40px"
-      color="white"
+      size='40px'
+      color='#ff8ba7'
       onClick={() => setOpen(!open)}
     />
-  );
+  )
   const closeMobileMenu = () => setOpen(false);
 
   // const closeMobileMenu = () => setOpen(false);

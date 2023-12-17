@@ -1,0 +1,68 @@
+/* ------Call to action------- */
+.callToAction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.callToAction img {
+  height: 275px;
+  width: auto;
+  margin-bottom: 1rem;
+}
+
+.callToAction p {
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  margin-bottom: 4.5rem;
+  text-align: center;
+  width: 300px;
+}
+
+.ctaBtn {
+  color: var(--button_text);
+  background-color: var(--primary_color);
+  letter-spacing: 1px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.15s ease-in;
+  border: 1px solid #33272a;
+  width: 100%;
+  box-shadow: 0 3px 10px 4px rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+.infoTitle {
+  font-size: 40px;
+  font-family: "Raleway", serif;
+  font-weight: 400;
+  color: var(--header_text);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+
+@media (hover: hover) {
+  .ctaBtn:hover {
+    border-radius: 15px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .callToAction img {
+    height: 200px;
+    width: auto;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .infoTitle {
+    font-size: 32px;
+  }
+
+}

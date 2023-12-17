@@ -157,6 +157,25 @@ nav.active {
     display: none;
   }
 
+  .home span {
+    display: none;
+  }
+
+  .linkContainer {
+    display: none;
+  }
+
+  nav {
+  padding: 3rem 6em;
+  }
+
+  .logo {
+    height: 40px;
+    width: auto;
+    margin-right: 0px;
+  }
+
+
   .navBtnSub {
     font-size: 13px;
     padding: 6.5px 8.5px;

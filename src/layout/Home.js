@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 //components
 import Header from "./header/Header";
 import Info from "../layout/Info";
-import Mission from "../layout/Mission";
+import GetStarted from "./GetStarted";
 import Pricing from "../layout/Pricing";
 import Testimonial from "../components/testimonial/Testimonial";
 import Questions from "../components/accordion/Questions";
@@ -24,6 +24,7 @@ const Home = function () {
         <Pricing />
         <Testimonial />
         <Questions />
+        <GetStarted />
         <Footer />
       </>
     </motion.div>

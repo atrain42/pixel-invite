@@ -1,27 +1,11 @@
 import { Link } from "react-router-dom";
 
-import Button from '../components/button/Button'
-
 //styles
 import classes from "./Footer.module.css";
-
-import balloons from '../images/balloons-PI.png'
 
 const Footer = () => {
   return (
     <footer className={classes.footer}>
-      <section className='call-to-action'>
-        <img
-          src={balloons}
-          alt='happy balloons'
-          className='call-to-action-img'
-        ></img>
-        <h1 className='infoTitle'>Ready to get started?</h1>
-        <p>Fill out the contact form and we will reply within 24 hours.</p>
-        <Link to='/contact'>
-          <Button title='Get started' />
-        </Link>
-      </section>
       <div className={classes.contentBin}>
         <div className={classes.footerLinks}>
           <h1>Pixel Invite</h1>
