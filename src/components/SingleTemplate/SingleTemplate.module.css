@@ -7,8 +7,9 @@
 
 .singleTemplateContent {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  gap: 100px;
 }
 
 .imageContainer {
@@ -93,6 +94,32 @@
   .imageContainer {
     width: 35rem;
     height: 23.5rem;
+  }
+}
+
+@media (max-width: 950px) {
+  .singleTemplateContent {
+    flex-direction: column;
+    gap: 50px;
+    margin-bottom: 75px;
+  }
+}
+
+@media (max-width: 700px) {
+  .templateText {
+    width: 100%;
+  }
+
+  .templateText h1 {
+    font-size: 32px;
+  }
+
+  .templateText p {
+    font-size: 16px;
+  }
+
+  .templateBtn {
+    font-size: 16px;
   }
 }
 

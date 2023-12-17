@@ -1,6 +1,6 @@
 .solidBtn {
   color: var(--button_text);
-  background-color: var(--background);
+  background-color: #f6efeb;
   letter-spacing: 1px;
   padding: 10px 30px;
   border: none;
