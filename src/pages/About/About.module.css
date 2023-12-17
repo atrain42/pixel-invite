@@ -4,20 +4,6 @@
   align-items: center;
   justify-content: center;
   padding-top: 12.5rem;
-  padding-bottom: 10rem;
-}
-
-.aboutText h1 {
-  font-family: "Playfair Display", serif;
-  font-size: 35px;
-  margin-bottom: 2.5rem;
-  color: var(--text-black);
-}
-
-.aboutText h2 {
-  margin-bottom: 20px;
-  margin-top: 20px;
-  font-size: 22px;
 }
 
 .aboutItem {
@@ -25,12 +11,20 @@
   margin-bottom: 6rem;
 }
 
-.aboutText p {
-  font-family: "Lora", sans-serif;
+.aboutItem p {
+  font-family: "Open Sans", sans-serif;
   font-size: 19px;
   line-height: 1.3;
-  color: var(--text-black);
-  margin-top: 3rem;
+  color: var(--paragraph);
+  font-weight: 300;
+}
+
+.aboutItem img {
+  width: 300px;
+  height: auto;
+  float: right;
+  margin-left: 3rem;
+  margin-bottom: 3rem;
 }
 
 @media (max-width: 800px) {

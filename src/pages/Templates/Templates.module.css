@@ -14,10 +14,9 @@
 
 .templateContainer {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  width: 100rem;
+  grid-template-columns: 1fr;
   height: fit-content;
-  gap: 8rem;
+  gap: 12rem;
   justify-content: center;
   margin: 0 auto;
   margin-top: 10rem;

@@ -5,9 +5,12 @@ import { motion, AnimatePresence } from "framer-motion";
 //components
 import Button from "../../components/button/Button";
 import Footer from "../../layout/Footer";
+import SectionHeader from '../../components/sectionHeader/SectionHeader'
 
 //styles
 import classes from "../About/About.module.css";
+
+import nancy from '../../images/nancy-drew-co.png'
 
 const Steps = () => {
   return (
@@ -19,9 +22,14 @@ const Steps = () => {
       >
         <React.Fragment>
           <div className={classes.aboutText}>
-            <h1>Steps</h1>
+            <SectionHeader
+              subtitle='MADE SIMPLE'
+              title='Steps to follow'
+              text='Follow the steps below to get started.'
+            />
             <div className={classes.aboutItem}>
               <p>
+                <img src={nancy} alt='Baby shower vector graphic' />
                 1. Browse our templates and get an idea of what you want your
                 site to look like. Then, fill out the contact form and we will
                 respond within 24 hours. We will reach you via the email
@@ -38,6 +46,9 @@ const Steps = () => {
                 selected in the contact form, we will send our corresponding
                 account information to that platform. The full $50 is due at
                 this point.
+              </p>
+              <p>
+                <img src={nancy} alt='Baby shower vector graphic' />
                 <br />
                 <br />
                 4. After payment has been recieved, we will begin working on
@@ -53,15 +64,15 @@ const Steps = () => {
               </p>
             </div>
 
-            <Link to="/contact">
-              <Button title="Get started" />
+            <Link to='/contact'>
+              <Button title='Get started' />
             </Link>
           </div>
           <Footer />
         </React.Fragment>
       </motion.div>
     </AnimatePresence>
-  );
+  )
 };
 
 export default Steps;

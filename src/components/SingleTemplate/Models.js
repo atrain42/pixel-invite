@@ -12,6 +12,7 @@ const Models = ({ data }) => {
   const ref = useRef(null);
   const isInView = useInView(ref, { once: true });
   const { title } = useParams();
+
   return (
     <AnimatePresence initial={true}>
       <motion.div

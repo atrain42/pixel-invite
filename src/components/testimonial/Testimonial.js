@@ -49,8 +49,8 @@ const Testimonial = () => {
         all the information on the shower."
       </p>
       <h4>- Sarah S, new mother</h4>
-      <Link to='/templates'>
-        <Button title='View templates' />
+      <Link to='/contact'>
+        <button className={classes.testimonialBtn}>Get started</button>
       </Link>
       <div className={classes.testimonialCardContainer}>
         {testimonials.map((testimonial, index) => {

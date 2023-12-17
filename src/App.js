@@ -22,39 +22,6 @@ import Templates from "./pages/Templates/Templates";
 
 import Navbar from "./components/nav/Navbar";
 
-import Models from "./components/SingleTemplate/Models";
-
-const templates = [
-  {
-    path: "https://pixelinvite-orbital.netlify.app/",
-    bgid: "orbital",
-    title: "Orbital",
-    number: "01",
-    info: "Multi-page application which includes home, RSVP, and Registry pages.",
-  },
-  {
-    path: "https://pixelinvite-horizon.netlify.app/",
-    bgid: "horizon",
-    title: "Horizon",
-    number: "02",
-    info: "Single-page where all the content is included on the home page; just keep scrolling!",
-  },
-  {
-    path: "https://pixelinvite-ozone.netlify.app/",
-    bgid: "ozone",
-    title: "Ozone",
-    number: "03",
-    info: "Multi-page application where the users are greeted with an animation prior to entering the site.",
-  },
-  {
-    path: "/templates/template-one",
-    bgid: "lunar",
-    title: "Lunar",
-    number: "04",
-    info: "Coming soon...",
-  },
-];
-
 function ScrollToTop() {
   const { pathname } = useLocation();
 
@@ -76,8 +43,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/steps" element={<Steps />} />
-          <Route path="/templates" element={<Templates data={templates} />} />
-          <Route path="/model/:title" element={<Models data={templates} />} />
+          <Route path="/templates" element={<Templates />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/success" element={<Success />} />
           <Route path="*" element={<Navigate replace to="/" />} />

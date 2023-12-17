@@ -27,8 +27,11 @@ const Navbar = () => {
           <span>Pixel Invite</span>
         </Link>
         <div className={classes.linkContainer}>
-          <Link className={classes.hoverLink} to='/about'>
-            About
+          <Link className={classes.hoverLink} to='/templates'>
+            Templates
+          </Link>
+          <Link className={classes.hoverLink} to='/contact'>
+            Get started
           </Link>
           <Link className={classes.hoverLink} to='/privacy'>
             Privacy

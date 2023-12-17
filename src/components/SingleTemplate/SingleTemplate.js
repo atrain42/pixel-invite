@@ -1,20 +1,22 @@
-import { Link } from "react-router-dom";
-
 //styles
-import "./SingleTemplate.css";
+import classes from './SingleTemplate.module.css'
 
-const SingleTemplate = ({ source, path, bgid, title }) => {
+const SingleTemplate = ({ path, bgid, title, number, info }) => {
   return (
-    <div className="single-template__content">
-      <a href={path} className="linkOverhang">
-        <div className="imageContainer" id={bgid}></div>
+    <div className={classes.singleTemplateContent}>
+      <a href={path} className={classes.linkOverhang}>
+        <div className={classes.imageContainer} id={bgid}></div>
       </a>
-
-      <Link to={`/model/${title}`} id="detail-link">
-        More details
-      </Link>
+      <div className={classes.templateText}>
+        <span>Model {number}</span>
+        <h1>{title}</h1>
+        <p>{info}</p>
+        <a href={path}>
+          <button className={classes.templateBtn}>Visit site</button>
+        </a>
+      </div>
     </div>
-  );
-};
+  )
+}
 
-export default SingleTemplate;
+export default SingleTemplate
